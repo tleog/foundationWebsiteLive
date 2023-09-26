@@ -14,7 +14,10 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding-bottom: 500px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #edf4fc;
 }
 header {
   background-color: #3498db;
@@ -70,8 +73,8 @@ nav a {
 .toptipsgrid {
   display: flex;
   flex-direction: row;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .marginbox {
@@ -105,6 +108,7 @@ footer {
   color: #fff;
   text-align: center;
   padding: 10px;
+  margin-top: auto;
 }
 .searchBar {
   background-color: #ffffffc0;
