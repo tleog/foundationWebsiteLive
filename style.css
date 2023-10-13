@@ -392,19 +392,32 @@ textarea {
 }
 .bloom-diagram{
   height: 250px;
+  margin-bottom: 10px;
+
   
 }
 .train-Text-subheader{
-  font-size: 20px;
-  margin-top: 10px;
+  font-weight: 500;
+  font-size: 22px;
   margin-bottom: 15px;
+  margin-top: 10px;
 
 }
-
-.teach-bullet{
-  padding-right: 10px;
+.train-Text-subsubheader{
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+.trainParagraph{
+  margin-bottom: 5px;
+}
+.teach-bullet-list{
+  list-style-type: square;
+  margin-left: 30px;
+}
+.teach-bullet{
+padding-left: 30px;
 }
 .teach-subbullet{
   padding-right: 50px;
