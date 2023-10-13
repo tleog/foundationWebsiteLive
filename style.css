@@ -334,12 +334,7 @@ textarea {
   margin-top: 1%;
   margin-bottom: 1%;
 }
-.aboutcontainer3 {
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 8px;
-  padding: 10px;
-}
+
 .aboutText {
   margin: 10px;
 }
@@ -358,3 +353,72 @@ textarea {
   margin-left: 20%;
   margin-right: 20%;
 }
+
+/*train the trainer styling*/
+.train-flex {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.train-container {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #2473da33;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.train-Text-intro {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.train-Text-header {
+  margin: none;
+  font-size: 25px;
+  font-weight: 500;
+  color: #001f61;
+  text-align: center;
+}
+.train-Text-body {
+  margin: none;
+}
+.bloom-diagram{
+  height: 250px;
+  
+}
+.train-Text-subheader{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+
+}
+
+.teach-bullet{
+  padding-right: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.teach-subbullet{
+  padding-right: 50px;
+  margin-top: 10px;
+  padding-left: 100px;
+}
+
+.train-footer-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.train-foooter-content {
+  flex: 1;
+}
+

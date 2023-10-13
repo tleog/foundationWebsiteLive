@@ -39,123 +39,143 @@
     </script>
   </head>
   <body>
-    <header>
-      <h1 class="">
-        The Foundation Doctor <i class="fa-solid fa-user-doctor fa-2xl"></i>
-      </h1>
-    </header>
-    <nav>
-      <a href="index.html">Homepage <i class="fa-solid fa-circle-h"></i></a>
-      <a href="Page2.html"
-        >Top Tips <i class="fa-solid fa-hand-holding-medical"></i
-      ></a>
-      <a href="Page3.html">About <i class="fa-solid fa-id-card-clip"></i></a>
-      <a href="Page4.html"
-        >Contact <i class="fa-solid fa-comment-medical"></i
-      ></a>
+    <div class="train-footer-wrapper">
+      <div class="train-foooter-content">
+        <header>
+          <h1 class="">
+            The Foundation Doctor <i class="fa-solid fa-user-doctor fa-2xl"></i>
+          </h1>
+        </header>
+        <nav>
+          <a href="index.html">Homepage <i class="fa-solid fa-circle-h"></i></a>
+          <a href="Page2.html"
+            >Top Tips <i class="fa-solid fa-hand-holding-medical"></i
+          ></a>
+          <a href="Page3.html"
+            >About <i class="fa-solid fa-id-card-clip"></i
+          ></a>
+          <a href="Page4.html"
+            >Contact <i class="fa-solid fa-comment-medical"></i
+          ></a>
+          <!-- sort out this search button -->
+          <form id="search-form" action="/search" method="GET">
+            <input
+              class="searchBar"
+              type="text"
+              id="search-input"
+              name="q"
+              placeholder="Search..."
+            />
+            <button type="submit" class="searchBarButton">
+              <i class="fas fa-search fa-lg"></i>
+            </button>
+          </form>
+        </nav>
+        <div class="container">
+          <div class="main-content">
+            <h2 class="subheading">Welcome to TheFoundationDoctor.co.uk</h2>
+            <br />
+            <p>
+              If you're a working clinician or a medical students making that
+              jump from medical school to your first clinical job it can be
+              daunting, confusing and complex so lets make it easier.
+            </p>
+          </div>
+          <div class="sidebar">
+            <h3>What's New?</h3>
+            <ul class="fa-ul">
+              <li>
+                <i class="fa-li fa fa-square"></i
+                ><a
+                  href="https://www.bma.org.uk/our-campaigns/junior-doctor-campaigns/pay/junior-doctors-strike-doctors-guide-to-industrial-action-2023/taking-industrial-action"
+                  class="whatsNewLink"
+                  ><strong>BMA Strikes</strong></a
+                >
+              </li>
+              <li>
+                <i class="fa-li fa fa-square"></i
+                ><a href="https://www.nice.org.uk/guidance" class="whatsNewLink"
+                  ><strong>NICE Guidlines</strong></a
+                >
+              </li>
+              <li>
+                <i class="fa-li fa fa-square"></i
+                ><a href="https://www.medicsmoney.co.uk/" class="whatsNewLink"
+                  ><strong>Medics Money</strong></a
+                >
+              </li>
+              <li>
+                <i class="fa-li fa fa-square"></i
+                ><a href="Page4.html" class="whatsNewLink"
+                  ><strong>Got ideas?</strong></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
 
-      <form id="search-form" action="/search" method="GET">
-        <input
-          class="searchBar"
-          type="text"
-          id="search-input"
-          name="q"
-          placeholder="Search..."
-        />
-        <button type="submit" class="searchBarButton">
-          <i class="fas fa-search fa-lg"></i>
-        </button>
-      </form>
-    </nav>
-    <div class="container">
-      <div class="main-content">
-        <h2 class="subheading">Welcome to TheFoundationDoctor.co.uk</h2>
-        <br />
-        <p>
-          If you're a working clinician or a medical students making that jump
-          from medical school to your first clinical job it can be daunting,
-          confusing and complex so lets make it easier.
-        </p>
+        <div class="featured">Featured Content</div>
+        <div class="toptipsgrid">
+          <a href="Appslist.html" class="marginbox">
+            <button class="featuredbuttons">Clinical Apps</button>
+          </a>
+
+          <div class="infobox">
+            <i class="fa-solid fa-laptop-medical fa-lg"></i> Android or iPhone,
+            it doesn't matter!
+            <p>
+              There are so many apps that can assist whether it be related to
+              clinical practice or for exam preparation!
+            </p>
+          </div>
+        </div>
+
+        <div class="toptipsgrid">
+          <a href="teachtheteacher.html" class="marginbox">
+            <button>
+              <p>How to teach effectively</p>
+            </button>
+          </a>
+
+          <div class="infobox">
+            <p>
+              Want to teach effectively? Thankfully we can help you teaching
+              medical students or health care professionals with evidence based
+              techniques.
+            </p>
+          </div>
+        </div>
+
+        <div class="toptipsgrid">
+          <a href="bleep.html" class="marginbox">
+            <p>Bleep Scenarios</p>
+          </a>
+          <div class="infobox">
+            *bzzzzz* *bzzzzz* ... Now what?
+            <p>
+              Test yourself with bleep scenarios designed to emulate a ward
+              call.
+            </p>
+            <br />
+          </div>
+        </div>
+        <div class="toptipsgrid">
+          <a href="bleep.html" class="marginbox">
+            <p>Bleep Scenarios</p>
+          </a>
+          <div class="infobox">
+            *bzzzzz* *bzzzzz* ... Now what?
+            <p>
+              Test yourself with bleep scenarios designed to emulate a ward
+              call.
+            </p>
+            <br />
+          </div>
+        </div>
       </div>
-      <div class="sidebar">
-        <h3>What's New?</h3>
-        <ul class="fa-ul">
-          <li>
-            <i class="fa-li fa fa-square"></i
-            ><a
-              href="https://www.bma.org.uk/our-campaigns/junior-doctor-campaigns/pay/junior-doctors-strike-doctors-guide-to-industrial-action-2023/taking-industrial-action"
-              class="whatsNewLink"
-              ><strong>BMA Strikes</strong></a
-            >
-          </li>
-          <li>
-            <i class="fa-li fa fa-square"></i
-            ><a href="https://www.nice.org.uk/guidance" class="whatsNewLink"
-              ><strong>NICE Guidlines</strong></a
-            >
-          </li>
-          <li>
-            <i class="fa-li fa fa-square"></i
-            ><a href="https://www.medicsmoney.co.uk/" class="whatsNewLink"
-              ><strong>Medics Money</strong></a
-            >
-          </li>
-          <li>
-            <i class="fa-li fa fa-square"></i
-            ><a href="Page4.html" class="whatsNewLink"
-              ><strong>Got ideas?</strong></a
-            >
-          </li>
-        </ul>
-      </div>
+      <footer>
+        <p>&copy; 2023 The Foundation Doctor.co.uk</p>
+      </footer>
     </div>
-
-    <div class="featured">Featured Content</div>
-    <div class="toptipsgrid">
-      <a href="Appslist.html" class="marginbox">
-        <button class="featuredbuttons">Clinical Apps</button>
-      </a>
-
-      <div class="infobox">
-        <i class="fa-solid fa-laptop-medical fa-lg"></i> Android or iPhone, it
-        doesn't matter!
-        <p>
-          There are so many apps that can assist whether it be related to
-          clinical practice or for exam preparation!
-        </p>
-      </div>
-    </div>
-
-    <div class="toptipsgrid">
-      <a href="teachtheteacher.html" class="marginbox">
-        <button>
-          <p>How to teach effectively</p>
-        </button>
-      </a>
-
-      <div class="infobox">
-        <p>
-          Want to teach effectively? Thankfully we can help you teaching medical
-          students or health care professionals with evidence based techniques.
-        </p>
-      </div>
-    </div>
-
-    <div class="toptipsgrid">
-      <a href="bleep.html" class="marginbox">
-        <p>Bleep Scenarios</p>
-      </a>
-      <div class="infobox">
-        *bzzzzz* *bzzzzz* ... Now what?
-        <p>
-          Test yourself with bleep scenarios designed to emulate a ward call.
-        </p>
-        <br />
-      </div>
-    </div>
-
-    <footer>
-      <p>&copy; 2023 The Foundation Doctor.co.uk</p>
-    </footer>
   </body>
 </html>
