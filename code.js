@@ -21,13 +21,3 @@
  */
 
 
-const editOnPage = (text) => {
-
-    // Get element to edit
-    const ele = document.querySelector('#exampleEle');
-
-    // Set text contents
-    ele.innerText = text;
-
-}
-alert ('Thank you for your feedback!')
