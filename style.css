@@ -353,7 +353,97 @@ textarea {
   margin-left: 20%;
   margin-right: 20%;
 }
+/*finance styling*/
+.financeFlex {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+.introFinanceText{
+  margin-top: 10px;
+  margin-bottom: 10px;
 
+}
+
+.financeContainer {
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #2473da33;
+  border-radius: 8px;
+  padding: 10px;
+}
+.financeText {
+  margin: 10px;
+}
+.financeSubheader{
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+.payCheckImage{
+width: 60%;
+margin-bottom: 10px;
+}
+
+.payChildColumn{
+display: flex;
+flex-direction: column;
+}
+.payChildRow{
+display: flex;
+flex-direction: row;
+
+}
+.paycheckList1{
+  margin-bottom: 10px; 
+  margin-left: 10px; 
+  margin-right: 20%; 
+  padding-left: 5px; 
+  background-color: orange; 
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+}
+.paycheckList2{
+  margin-bottom: 10px; 
+  margin-left: 10px; 
+  margin-right: 20%; 
+  padding-left: 5px; 
+  background-color: rgb(4, 160, 4); 
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+
+}
+.paycheckList3{
+  margin-bottom: 10px; 
+  margin-left: 10px; 
+  margin-right: 20%; 
+  padding-left: 5px; 
+  background-color: rgb(240, 31, 31); 
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+
+}
+.paycheckList4{
+  margin-bottom: 10px; 
+  margin-left: 10px; 
+  margin-right: 20%; 
+  padding-left: 5px; 
+  background-color: rgb(132, 214, 241); 
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+
+}
 /*train the trainer styling*/
 .train-flex {
   display: flex;
