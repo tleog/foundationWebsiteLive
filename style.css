@@ -444,6 +444,61 @@ flex-direction: row;
   border-color: white;
 
 }
+/*leave styling*/
+.leaveFlex {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+.leaveContainer {
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #2473da33;
+  border-radius: 8px;
+  padding: 10px;
+}
+.leaveText {
+  margin-left: 10px;
+  margin-right: 10px
+}
+.leaveSubheader{
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #001f61;
+  margin-left: 10px;
+}
+.shiftGrid{
+margin-top: 15px;
+display: grid;
+grid-template-columns: 1fr 2fr; /* Two columns with equal width */
+grid-template-rows: repeat(6, 1fr); /* Six rows with equal height */
+gap: 2px; /*  gap between grid items */
+width: 50%; /* width of the grid container */
+}
+.shiftGrid-item {
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.shiftGrid-item2 {
+  background-color: #3498db;
+  color: white;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.leaveList{
+  list-style-type: square;
+  margin-left: 30px;
+}
 /*train the trainer styling*/
 .train-flex {
   display: flex;
