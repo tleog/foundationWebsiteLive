@@ -652,3 +652,9 @@ textarea {
 .train-foooter-content {
   flex: 1;
 }
+
+/*element atsp*/
+.collapse.show {
+  visibility: visible;
+}
+/*element atsp*/
