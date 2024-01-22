@@ -54,24 +54,36 @@ nav a {
   /* Center horizontally */
   max-width: 1200px;
   /* Optional: Set a maximum width for the container */
+margin-top: 10px;
+  border-radius: 10px;
 }
 
 .main-content {
   flex: 3;
   background-color: #ecf0f1;
   padding: 20px;
+  margin-right: 20px;
+  box-shadow: 0px 0px 8px #4c6fe6c0;
+  border-radius: 10px;
+
+
 }
 
 .subheading {
   color: #2c3e50;
   font-size: 28px;
   font-weight: 650;
+  
 }
 
 .sidebar {
   flex: 1;
   background-color: #f1c40f;
   padding: 20px;
+  box-shadow: 0px 0px 8px #4c6fe6c0;
+  border-radius: 10px;
+
+
 }
 
 .whatsNewLink:hover {
@@ -96,6 +108,8 @@ nav a {
 
   margin-left: 20%;
   margin-right: 5px;
+  box-shadow: 0px 0px 4px #3059e0c0;
+
 }
 
 .marginbox:hover {
@@ -113,6 +127,8 @@ nav a {
   padding: 10px;
   margin-left: 2;
   margin-right: 20%;
+  box-shadow: 0px 0px 4px #748ddfc0;
+
 }
 
 footer {
@@ -147,6 +163,8 @@ footer {
 .featured {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
@@ -154,6 +172,8 @@ footer {
   font-size: 30px;
   font-weight: 600;
   font-style: italic;
+  
+  
 }
 
 .tipsHeader {
@@ -194,7 +214,7 @@ footer {
   padding: 20px;
   background-color: #fff;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px rgba(2, 36, 150, 0.753);
+  box-shadow: 0px 0px 10px rgba(109, 134, 214, 0.753);
 }
 
 label {
@@ -349,6 +369,7 @@ textarea {
   margin-bottom: 10px;
   margin-left: 20%;
   margin-right: 20%;
+  
 }
 
 .aboutcontainer {
@@ -357,6 +378,8 @@ textarea {
   background-color: #2473da33;
   border-radius: 8px;
   padding: 10px;
+  box-shadow: 0px 0px 4px #748ddfc0;
+
 }
 
 .aboutcontainer2 {
@@ -366,6 +389,8 @@ textarea {
   border-radius: 8px;
   margin-top: 1%;
   margin-bottom: 1%;
+    box-shadow: 0px 0px 4px #748ddfc0;
+
 }
 
 .aboutText {
