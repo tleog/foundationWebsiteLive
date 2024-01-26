@@ -683,3 +683,23 @@ textarea {
   visibility: visible;
 }
 /*element atsp*/
+
+/*slide show styling*/
+.slideshow-container {
+    max-width: 600px;
+    position: relative;
+    width: 100%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+}
+.slideImage{
+  border-radius: 15px;
+}
+/*slide show styling*/
