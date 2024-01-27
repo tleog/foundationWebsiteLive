@@ -17,7 +17,7 @@ function showSlides() {
     slides[slideIndex - 1].style.display = "block";
 
     // Change slide every 3 seconds (adjust the interval as needed)
-    setTimeout(showSlides, 3000);
+    setTimeout(showSlides, 5000);
 }
 
 // Start the slideshow when the page loads
