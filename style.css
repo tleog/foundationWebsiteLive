@@ -52,9 +52,9 @@ nav a {
   padding: 20px;
   margin: 0 auto;
   /* Center horizontally */
-  max-width: 1200px;
+  max-width: 100vw;
   /* Optional: Set a maximum width for the container */
-margin-top: 10px;
+  margin-top: 10px;
   border-radius: 10px;
 }
 
@@ -72,8 +72,7 @@ margin-top: 10px;
 .subheading {
   color: #2c3e50;
   font-size: 28px;
-  font-weight: 650;
-  
+  font-weight: 650;  
 }
 
 .sidebar {
@@ -82,8 +81,7 @@ margin-top: 10px;
   padding: 20px;
   box-shadow: 0px 0px 8px #4c6fe6c0;
   border-radius: 10px;
-
-
+  
 }
 
 .whatsNewLink:hover {
@@ -678,6 +676,7 @@ textarea {
   flex: 1;
 }
 
+
 /*element atsp*/
 .collapse.show {
   visibility: visible;
@@ -688,7 +687,7 @@ textarea {
 .slideshow-container {
     max-width: 600px;
     position: relative;
-    width: 100%;
+    width: 100vw;
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
@@ -703,3 +702,59 @@ textarea {
   border-radius: 15px;
 }
 /*slide show styling*/
+
+/*Mobile optimisation additions*/
+
+
+@media (max-width: 600px){
+   .container {
+    display: none;
+  }
+  .main-content {
+   margin-bottom: 2%;
+   margin-right: 2%;
+   margin-left: 2%;
+  display: none;
+  }
+ 
+  .subheading {
+    color: #2c3e50;
+    font-size: 22px;
+    font-weight: 650;  
+  
+  }
+  .sidebar {
+    display: none;
+  }
+  .header{
+    height: 20vw;
+  }
+  .headerText{
+    font-size: 22px;
+  }
+  .nav{
+    font-size: 15px;
+  }
+  .toptipsgrid {
+    margin: 0; /* Reset margin for small screens if needed */
+}  
+.marginbox{
+  margin: 2%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+
+}
+    
+.infobox {
+      margin: 2%;
+      margin-left: 1%;
+      margin-bottom: 1%;
+
+    }
+.featured { 
+  margin: 2%;        
+    }
+.slideshow-container{
+scale: 95%;
+}
+  }
