@@ -219,13 +219,14 @@ label {
   font-weight: bold;
 }
 
-input[type="text1"],
+input[type="text"],
 textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
   border: 1px solid #002e92;
   border-radius: 5px;
+  line-height: 1.5;
 }
 
 .button2 {
