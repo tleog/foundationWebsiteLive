@@ -23,3 +23,6 @@ function showSlides() {
 // Start the slideshow when the page loads
 document.addEventListener("DOMContentLoaded", showSlides);
 
+document.getElementById('payCheckImageMob').addEventListener('click', function () {
+    this.classList.toggle('fullscreen');
+});

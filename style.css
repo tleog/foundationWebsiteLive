@@ -436,8 +436,8 @@ textarea {
 }
 
 .financeContainer {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
   background-color: #2473da33;
   border-radius: 8px;
   padding: 10px;
@@ -455,8 +455,13 @@ textarea {
 }
 
 .payCheckImage {
-  width: 60%;
-  margin-bottom: 10px;
+  width:60%;
+  max-height: auto;
+}
+.payCheckImageMob{
+  width:60%;
+  max-height: auto;
+  display: none;
 }
 
 .payChildColumn {
@@ -467,7 +472,6 @@ textarea {
 .payChildRow {
   display: flex;
   flex-direction: row;
-
 }
 
 .paycheckList1 {
@@ -836,6 +840,35 @@ margin: 2%;
 }
 .shiftGrid{
 width: 100%;
+}
+
+/*finance.html*/
+
+.financeContainer{
+margin:1%;
+
+}
+
+.payCheckImage{
+  display: none;
+}
+.payCheckImageMob{
+  display: block;
+  
+}
+#payCheckImageMob {
+  width: 100%;
+  height: auto;
+}
+.fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-color: rgba(0, 0, 0, 0.9); /* Optional: Add a semi-transparent overlay */
+  z-index: 9999;
 }
 
 
