@@ -1,3 +1,9 @@
+// Get the current year
+const currentYear = new Date().getFullYear();
+
+// Update the content with the current year
+document.getElementById('year').textContent = currentYear;
+
 let slideIndex = 0;
 
 function showSlides() {
@@ -16,8 +22,8 @@ function showSlides() {
 
     slides[slideIndex - 1].style.display = "block";
 
-    // Change slide every 3 seconds (adjust the interval as needed)
-    setTimeout(showSlides, 5000);
+    // Change slide every x seconds (adjust the interval as needed)
+    setTimeout(showSlides, 6000);
 }
 
 // Start the slideshow when the page loads
@@ -26,3 +32,5 @@ document.addEventListener("DOMContentLoaded", showSlides);
 document.getElementById('payCheckImageMob').addEventListener('click', function () {
     this.classList.toggle('fullscreen');
 });
+
+
