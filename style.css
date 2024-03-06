@@ -73,7 +73,27 @@ nav a {
   border-radius: 10px;
   
 }
+.gridAppStyle{
+border-radius: 10px;
+}
+/*app grid*/
+.grid-container {
+ display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center horizontally */
+  max-width: 1500px; /* Adjust as needed */
+  margin: 0 auto; /* Center horizontally */
+}
 
+.grid-item {
+  flex: 0 0 calc(33.33% - 10px); /* Adjust for margins */
+  margin: 5px; /* Margin between grid items */
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*grid */
 .whatsNewLink:hover {
   color: #8000a0;
 }
@@ -90,8 +110,8 @@ nav a {
   background-color: rgb(105, 142, 245);
   border-radius: 10px;
 
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 0px;
+  padding-top: 0px;
   text-align: center;
 
   margin-left: 20%;
