@@ -73,7 +73,12 @@ nav a {
   border-radius: 10px;
   
 }
+/*current tips styling start*/
+.quoteSpacing{
+  margin-top: 1%;
+}
 
+/*current tips styling end*/
 /*app grid*/
 .gridAppStyle{
   border-radius: 10px;
@@ -730,6 +735,14 @@ textarea {
   background-color: #acc9f0;
   border-radius: 8px;
   padding: 10px;
+}
+.specialitySubheader{
+  margin-top: 2%;
+  margin-bottom: 1%;
+  font-size: 25px;
+  font-weight: 500;
+  color: #001f61;
+  text-align: left;
 }
 /*Speciality styling*/
 
