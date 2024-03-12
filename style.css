@@ -1,7 +1,6 @@
 /* Import google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
-
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -61,8 +60,8 @@ nav a {
 .subheading {
   color: #2c3e50;
   font-size: 28px;
-  font-weight: 650; 
-  padding-bottom: 10px; 
+  font-weight: 650;
+  padding-bottom: 10px;
 }
 
 .sidebar {
@@ -71,24 +70,23 @@ nav a {
   padding: 20px;
   box-shadow: 0px 0px 8px #4c6fe6c0;
   border-radius: 10px;
-  
 }
 /*current tips styling start*/
-.quoteSpacing{
+.quoteSpacing {
   margin-top: 1%;
 }
 
 /*current tips styling end*/
 /*app grid*/
-.gridAppStyle{
+.gridAppStyle {
   border-radius: 10px;
   transition: opacity 0.3s ease;
-  }
-.gridAppStyle:hover{
+}
+.gridAppStyle:hover {
   opacity: 0.7;
 }
 .grid-container {
- display: flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center; /* Center horizontally */
   max-width: 1500px; /* Adjust as needed */
@@ -126,7 +124,6 @@ nav a {
 
   margin-right: 5px;
   box-shadow: 0px 0px 4px #3059e0c0;
-
 }
 
 .marginbox:hover {
@@ -145,7 +142,6 @@ nav a {
   margin-left: 2;
   margin-right: 20%;
   box-shadow: 0px 0px 4px #748ddfc0;
-
 }
 
 footer {
@@ -188,8 +184,6 @@ footer {
   color: #002e92;
   font-size: 30px;
   font-weight: 600;
-  
-  
 }
 
 .tipsHeader {
@@ -352,7 +346,7 @@ textarea {
   border-radius: 5px;
 }
 
-.appHeader{
+.appHeader {
   font-size: 20px;
   font-weight: 500;
   display: flex;
@@ -392,7 +386,6 @@ textarea {
   margin-bottom: 10px;
   margin-left: 10%;
   margin-right: 10%;
-  
 }
 
 .aboutcontainer {
@@ -402,7 +395,6 @@ textarea {
   border-radius: 8px;
   padding: 10px;
   box-shadow: 0px 0px 4px #748ddfc0;
-
 }
 
 .aboutcontainer2 {
@@ -412,8 +404,7 @@ textarea {
   border-radius: 8px;
   margin-top: 1%;
   margin-bottom: 1%;
-    box-shadow: 0px 0px 4px #748ddfc0;
-
+  box-shadow: 0px 0px 4px #748ddfc0;
 }
 
 .aboutText {
@@ -442,13 +433,11 @@ textarea {
   flex-direction: column;
   margin-top: 10px;
   margin-bottom: 10px;
-
 }
 
 .introFinanceText {
   margin-top: 10px;
   margin-bottom: 10px;
-
 }
 
 .financeContainer {
@@ -467,19 +456,18 @@ textarea {
   margin-top: 10px;
   font-size: 20px;
   font-weight: 500;
-
 }
 
 .payCheckImage {
-  width:60%;
+  width: 60%;
   max-height: auto;
 }
-.payCheckImageMob{
-  width:60%;
+.payCheckImageMob {
+  width: 60%;
   max-height: auto;
   display: none;
 }
-.payCheckImageMobText{
+.payCheckImageMobText {
   font-weight: 500;
   display: none;
   margin-bottom: 10px;
@@ -517,7 +505,6 @@ textarea {
   border-style: solid;
   border-width: 3px;
   border-color: white;
-
 }
 
 .paycheckList3 {
@@ -530,7 +517,6 @@ textarea {
   border-style: solid;
   border-width: 3px;
   border-color: white;
-
 }
 
 .paycheckList4 {
@@ -543,7 +529,6 @@ textarea {
   border-style: solid;
   border-width: 3px;
   border-color: white;
-
 }
 
 /*leave styling*/
@@ -552,7 +537,6 @@ textarea {
   flex-direction: column;
   margin-top: 10px;
   margin-bottom: 10px;
-
 }
 
 .leaveContainer {
@@ -565,7 +549,7 @@ textarea {
 
 .leaveText {
   margin-left: 10px;
-  margin-right: 10px
+  margin-right: 10px;
 }
 
 .leaveSubheader {
@@ -625,18 +609,18 @@ textarea {
 .train-container {
   margin-left: 10px;
   margin-right: 10px;
-  background-color: #acc9f0;
+  background-color: #c8dbf5;
   border-radius: 8px;
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
-
 }
 
 .train-Text-intro {
   margin-top: 10px;
   margin-bottom: 10px;
-
+  font-size: 1.125rem;
+  line-height: 1.5;
 }
 
 .train-Text-header {
@@ -654,45 +638,48 @@ textarea {
 
 .bloom-diagram {
   height: 250px;
-  margin-bottom: 10px;
-
-
+  margin-bottom: 1%;
+  margin: auto;
 }
 
 .train-Text-subheader {
   font-weight: 500;
   font-size: 22px;
   margin-bottom: 20px;
-  margin-top: 40px;
-
+  margin-top: 4%;
 }
 
 .train-Text-subsubheader {
   margin-top: 10px;
   font-size: 20px;
   font-weight: 500;
-
+  margin-top: 2%;
 }
 
 .train-Text-subsubsubheader {
   font-size: 17px;
-  font-weight: 400;
+  font-weight: 500;
   text-decoration: underline;
-
+  font-size: 1.125rem;
+  margin-top: 2%;
 }
 
 .trainParagraph {
-  margin-bottom: 5px;
+  font-size: 1.125rem;
+  line-height: 1.5;
 }
 
 .teach-bullet-list {
   list-style-type: square;
   margin-left: 30px;
 }
-.referenceList{
-  list-style-type:decimal;
+.teach-number-list {
+  list-style-type: decimal;
   margin-left: 30px;
-
+}
+.referenceList {
+  list-style-type: decimal;
+  margin-left: 30px;
 }
 .teach-bullet {
   padding-left: 30px;
@@ -714,7 +701,6 @@ textarea {
   flex: 1;
 }
 
-
 /*element atsp*/
 .collapse.show {
   visibility: visible;
@@ -727,7 +713,6 @@ textarea {
   flex-direction: column;
   margin-top: 10px;
   margin-bottom: 10px;
-
 }
 .specialityContainer {
   margin-left: 10%;
@@ -736,7 +721,7 @@ textarea {
   border-radius: 8px;
   padding: 10px;
 }
-.specialitySubheader{
+.specialitySubheader {
   margin-top: 2%;
   margin-bottom: 1%;
   font-size: 25px;
@@ -748,49 +733,49 @@ textarea {
 
 /*slide show styling*/
 .slideshow-container {
-    max-width: 600px;
-    position: relative;
-    width: 100vw;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+  max-width: 600px;
+  position: relative;
+  width: 100vw;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
 }
 
 .slide {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
-.slideImage{
+.slideImage {
   border-radius: 15px;
   transition: opacity 0.2s ease;
 }
-.slideImage:hover{
+.slideImage:hover {
   opacity: 0.8;
 }
 /*slide show styling*/
 
 /*Splash.html styling*/
-.splash-Main{
+.splash-Main {
   overflow: hidden;
 }
-.splashheader{
+.splashheader {
   background-color: #3498db;
   color: #fff;
   padding: 00px;
   text-align: center;
-   font-size: 65px;
-   margin-top: 15%;
-   margin-left: 0%;
-   margin-right: 0%;
-   margin-bottom: 5%;
+  font-size: 65px;
+  margin-top: 15%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 5%;
 }
-.splashheaderText{
+.splashheaderText {
   background-color: #001f61;
   max-width: 100%;
   max-height: 5%;
 }
-.splashSubtitle{
+.splashSubtitle {
   background-color: 001f61;
   font-size: 24px;
   padding: 10px;
@@ -804,14 +789,12 @@ textarea {
   color: rgba(255, 255, 255, 0.781);
   text-align: center;
   justify-content: center;
-
 }
 
-.splashFlex{
+.splashFlex {
   display: flex;
   flex-direction: row;
   height: 100vw;
-
 }
 .splashFlexRight {
   flex: 1;
@@ -824,22 +807,23 @@ textarea {
   align-items: center;
   text-align: center;
 }
-.splashFlexRightText{
+.splashFlexRightText {
   margin-top: 40%;
   margin-right: 5%;
 }
-.splashBob{
+.splashBob {
   animation: bob 2s infinite;
 }
 @keyframes bob {
-  0%, 100% {
-      transform: translateY(0);
+  0%,
+  100% {
+    transform: translateY(0);
   }
   50% {
-      transform: translateY(-20px); /* Adjust the distance the logo moves */
+    transform: translateY(-20px); /* Adjust the distance the logo moves */
   }
 }
-.splashFlexLeft{
+.splashFlexLeft {
   flex: 1;
   color: #fff;
   font-size: 80px;
@@ -850,19 +834,19 @@ textarea {
   align-items: center;
   text-align: center;
 }
-.splashFlexLeftText{
-margin-top: 33%;
-margin-left: 5%;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+.splashFlexLeftText {
+  margin-top: 33%;
+  margin-left: 5%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-.splashFlexLeftSubText{
+.splashFlexLeftSubText {
   font-size: 30px;
   margin: 2%;
   margin-top: 5%;
   color: #fff;
 }
-.splashFlexButton{
+.splashFlexButton {
   background-color: #59aaec;
   border-radius: 45px;
   padding: 2%;
@@ -873,185 +857,177 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
   margin-top: 15%;
   color: #2c3e50;
   font-size: 30px;
-  
 }
-.splashFlexButton:hover{
+.splashFlexButton:hover {
   background-color: #3d8cc0d3;
-
 }
 
 /*Mobile optimisation additions*/
 
-
-@media (max-width: 600px){
+@media (max-width: 600px) {
   /*index.html*/
-  body{
+  body {
     background-image: url("images/backgroundImageMob.png");
   }
-  header{
+  header {
     background-image: url("images/headerImage.PNG");
     background-position: center;
   }
-   .container {
+  .container {
     display: none;
   }
   .main-content {
-   margin-bottom: 2%;
-   margin-right: 2%;
-   margin-left: 2%;
-  display: none;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    display: none;
   }
- 
+
   .subheading {
     color: #2c3e50;
     font-size: 22px;
-    font-weight: 650;  
-  
+    font-weight: 650;
   }
   .sidebar {
     display: none;
   }
-  .header{
+  .header {
     height: 20vw;
   }
-  .headerText{
+  .headerText {
     font-size: 22px;
   }
-  .nav{
+  .nav {
     font-size: 15px;
   }
   .toptipsgrid {
     margin: 0; /* Reset margin for small screens if needed */
-}  
-.marginbox{
-  margin: 2%;
-  margin-right: 1%;
-  margin-bottom: 1%;
-
-}
-    
-.infobox {
-      margin: 2%;
-      margin-left: 1%;
-      margin-bottom: 1%;
-
-    }
-.featured { 
-  margin: 2%;        
-    }
-.slideshow-container{
-scale: 95%;
-}
-/*page2.html*/
-.tipsSubheader{
-  margin:0%;
-}
-
-
-/*Page3.html*/
-.aboutflex {
-  margin-left: 0%;
-  margin-right: 0%;
-
-}
-.aboutcontainer{
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-bottom: 2%;
-}
-.aboutText{
-  margin-left: 1%;
-  margin-right: 1%;
+  }
+  .marginbox {
+    margin: 2%;
+    margin-right: 1%;
+    margin-bottom: 1%;
   }
 
-.aboutcontainer2{
+  .infobox {
+    margin: 2%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+  }
+  .featured {
+    margin: 2%;
+  }
+  .slideshow-container {
+    scale: 95%;
+  }
+  /*page2.html*/
+  .tipsSubheader {
+    margin: 0%;
+  }
+
+  /*Page3.html*/
+  .aboutflex {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .aboutcontainer {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+  }
+  .aboutText {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  .aboutcontainer2 {
     margin: 10%;
   }
- .faceimage{
-
+  .faceimage {
   }
   /*Page4.html*/
 
-.container2{
-margin: 5%;
-}
-.headercontact{
-  font-size: 20px;
-  font-weight: 700;
-}
-
-/*Applist.html*/
-.appsgrid{
-  width: 100%;
-}
-.appsbox{
-margin-left: 1%;
-max-width: 20%;
-}
-.appinfobox{
-margin-right: 1%;
-width: 50%;
-
-}
-.appicons {
-  width: 100%;
-}
-
-/*teachtheteacher.html*/
-.train-flex{
-  margin: 0%;
-}
-.train-container{
-}
-
-/*leave.html*/
-
-.leaveContainer{
-margin: 2%;
-}
-.shiftGrid{
-width: 100%;
-}
-
-/*finance.html*/
-
-.financeContainer{
-margin:1%;
-
-}
-
-.payCheckImage{
-  display: none;
-}
-.payCheckImageMob{
-  display: block;
-  
-}
-#payCheckImageMob {
-  width: 100%;
-  height: auto;
-}
-.fullscreen {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  background-color: rgba(0, 0, 0, 0.9); /* Optional: Add a semi-transparent overlay */
-  z-index: 9999;
-}
-.payCheckImageMobText{
-  display: block;
-  font-weight: 500;
-}
-/*Top tips grid*/
-.grid-container {
-  display: block;
- }
- .grid-item{
-  display: block;
-  margin: 5%;
-
- }
+  .container2 {
+    margin: 5%;
   }
+  .headercontact {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  /*Applist.html*/
+  .appsgrid {
+    width: 100%;
+  }
+  .appsbox {
+    margin-left: 1%;
+    max-width: 20%;
+  }
+  .appinfobox {
+    margin-right: 1%;
+    width: 50%;
+  }
+  .appicons {
+    width: 100%;
+  }
+
+  /*teachtheteacher.html*/
+  .train-flex {
+    margin: 0%;
+  }
+  .train-container {
+  }
+
+  /*leave.html*/
+
+  .leaveContainer {
+    margin: 2%;
+  }
+  .shiftGrid {
+    width: 100%;
+  }
+
+  /*finance.html*/
+
+  .financeContainer {
+    margin: 1%;
+  }
+
+  .payCheckImage {
+    display: none;
+  }
+  .payCheckImageMob {
+    display: block;
+  }
+  #payCheckImageMob {
+    width: 100%;
+    height: auto;
+  }
+  .fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: rgba(
+      0,
+      0,
+      0,
+      0.9
+    ); /* Optional: Add a semi-transparent overlay */
+    z-index: 9999;
+  }
+  .payCheckImageMobText {
+    display: block;
+    font-weight: 500;
+  }
+  /*Top tips grid*/
+  .grid-container {
+    display: block;
+  }
+  .grid-item {
+    display: block;
+    margin: 5%;
+  }
+}
