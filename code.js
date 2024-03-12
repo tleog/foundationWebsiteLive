@@ -34,3 +34,4 @@ document
   .addEventListener("click", function () {
     this.classList.toggle("fullscreen");
   });
+
