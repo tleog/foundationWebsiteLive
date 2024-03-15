@@ -75,6 +75,24 @@ nav a {
 .quoteSpacing {
   margin-top: 1%;
 }
+.currentTipsContainerL{
+  margin-left: 10%;
+  margin-right: 30%;
+  margin-top: 2%;
+  background-color: #acc9f0;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 0px 4px #748ddfc0;
+}
+.currentTipsContainerR{
+  margin-left: 30%;
+  margin-right: 10%;
+  margin-top: 2%;
+  background-color: #acc9f0;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 0px 4px #748ddfc0;
+}
 
 /*current tips styling end*/
 /*app grid*/
@@ -732,6 +750,30 @@ textarea {
 }
 /*Speciality styling*/
 
+/*Day One styling*/
+.dayOneContainer{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2%;
+  background-color: #acc9f0;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 0px 4px #748ddfc0;
+}
+.quizButton{
+  background-color: #c1d3e7c4;
+  color: #000000;
+  border-radius: 5px;
+  cursor: pointer;
+  flex: 1;
+  margin-top: 0.2%;
+}
+.quizHeader{
+  text-align: center;
+  font-weight: 600;; 
+}
+/*Day One styling*/
+
 /*slide show styling*/
 .slideshow-container {
   max-width: 600px;
@@ -1031,4 +1073,9 @@ textarea {
     display: block;
     margin: 5%;
   }
+  /*Day One styling*/
+.dayOneContainer{
+  margin: 1%;
+}
+/*Day One styling*/
 }
