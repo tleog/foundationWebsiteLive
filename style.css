@@ -773,6 +773,19 @@ textarea {
   font-weight: 600;; 
 }
 /*Day One styling*/
+/* wellbeing*/
+.aboutcontainerW {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+
+  background-color: #acc9f0;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 0px 4px #748ddfc0;
+}
+/* wellbeing*/
 
 /*slide show styling*/
 .slideshow-container {
