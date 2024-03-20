@@ -687,6 +687,13 @@ textarea {
   font-size: 1.125rem;
   line-height: 1.5;
 }
+.takeHomeTip {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 600;
+  color:#001f61;
+  margin-top: 5%;
+}
 
 .teach-bullet-list {
   list-style-type: square;
