@@ -1,10 +1,8 @@
 // Get the current year
 const currentYear = new Date().getFullYear();
-
-// Update the content with the current year
 document.getElementById("year").textContent = currentYear;
 
-
+//slideshow code 
 let slideIndex = 0;
 
 function showSlides() {
@@ -29,14 +27,11 @@ function showSlides() {
 
 // Start the slideshow when the page loads
 document.addEventListener("DOMContentLoaded", showSlides);
-$(function () {
-  $('[data-toggle="popover"]').popover();
-});
-document
-  .getElementById("payCheckImageMob")
-  .addEventListener("click", function () {
-    this.classList.toggle("fullscreen");
-  });
 
- 
+
+//anchorpaycheckcode
+document.getElementById("payCheckImageMob").addEventListener("click", function () {
+  this.classList.toggle("fullscreen");
+});
+
   

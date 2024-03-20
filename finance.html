@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -98,8 +104,76 @@
             monthly take-home pay, we must consider how pay varies based on the
             job. All Foundation Doctors receive a 'base rate.' Additional hours
             beyond the standard 40 hours, night shifts, and weekend cover
-            contribute to the overall pay.
+            contribute to the overall pay. Take a look at the BMA Pay Scales
+            below.
           </p>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-toggle="modal"
+            data-target="#exampleModalCenter"
+            style="
+              color: black;
+              font-weight: 600;
+              background-color: rgb(119, 226, 240);
+              border: none;
+            "
+          >
+            BMA Doctor Pay Circular 2023/2024
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModalCenter"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">
+                    BMA Doctor Pay Circular
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img
+                    src="images\payScale2324.PNG"
+                    title="https://www.bma.org.uk/pay-and-contracts/pay/junior-doctors-pay-scales/pay-scales-for-junior-doctors-in-england"
+                    class="payCheckImage"
+                    style="border-radius: 10px"
+                  />
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                    style="
+                      color: black;
+                      font-weight: 600;
+                      background-color: rgb(119, 226, 240);
+                      border: none;
+                    "
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <p class="financeSubheader">Paycheck explained</p>
           <p class="introFinanceText">
             Picture it's payday, and you log into your e-payslip to find this.
@@ -111,25 +185,88 @@
               class="payCheckImageMob"
               id="payCheckImageMob"
             />
+          </div>
+          <div class="paycheckContainer">
             <div class="payChildRow">
-              <img
-                src="images/e-payslip.PNG"
-                class="payCheckImage"
-                id="payCheckImage"
-              />
-              <ul>
+              <div class="imageContainer">
+                <img
+                  src="images/e-payslip.PNG"
+                  class="payCheckImage"
+                  id="payCheckImage"
+                />
+              </div>
+              <div class="paycheckLists">
+                <ul class="paycheckListParent">
+                  <li>
+                    <p class="payCheckImageMobText">
+                      ***Note: On Mobile - Tap on the picture to anchor it to
+                      the top of the page whilst you read each about each
+                      section***
+                    </p>
+                  </li>
+                  <li class="paycheckList1">
+                    <p class="PayBoxTitle">1. Top section</p>
+                    <ol class="teach-bullet-list">
+                      <li>Employee Name</li>
+                      <li>Where you work</li>
+                      <li>What your job is</li>
+                      <li>Your annual (12-month total) salary</li>
+                      <li>The average hours worked (Standard Hrs)</li>
+                      <li>Your Tax code</li>
+                      <li>Your local tax office code</li>
+                      <li>National Insurance Number</li>
+                    </ol>
+                  </li>
+
+                  <li class="paycheckList2">
+                    <p class="PayBoxTitle">2. Payments</p>
+                    <ol class="teach-bullet-list">
+                      <li>Hours worked</li>
+                      <li>Hourly rate</li>
+                      <li>Additional hours (Addn) worked over 40 hours</li>
+                      <li>Night shift rate which is 37% of standard rate</li>
+                      <li>
+                        Weekend rate. The example displays a rate for working
+                        less than 1 in 3 weekends.
+                      </li>
+                    </ol>
+                  </li>
+                  <li class="paycheckList3">
+                    <p class="PayBoxTitle">3. Deductions</p>
+                    <ol class="teach-bullet-list">
+                      <li>PAYE - Pay-As-You-Earn income tax</li>
+                      <li>NIA - National Insurance Contributions</li>
+                      <li>NHS pension deduction (you can opt out)</li>
+                      <li>Student loan repayments</li>
+                      <li>Other deductions e.g. Doctors Mess Fees</li>
+                    </ol>
+                  </li>
+
+                  <li class="paycheckList4">
+                    <p class="PayBoxTitle">4. Balances and Summary</p>
+                    <ol class="teach-bullet-list">
+                      <li>On the left appear cumulative balances to date</li>
+                      <li>
+                        On the right you can see a monthly summary of gross
+                        (before deductions) and net pay (whats paid to your
+                        bank)
+                      </li>
+                      <li>Payment method - BACS is basically bank transfer</li>
+                    </ol>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="payCheckTextMob">
+              <ul class="paycheckListParentMob">
                 <li>
-                  <p style="margin-bottom: 10px">
-                    This is an overview of your entire payslip. Use it as a
-                    reference as we break down each section.
-                  </p>
                   <p class="payCheckImageMobText">
                     ***Note: On Mobile - Tap on the picture to anchor it to the
-                    top of the paget whilst you read each about each section***
+                    top of the page whilst you read each about each section***
                   </p>
                 </li>
                 <li class="paycheckList1">
-                  <p>1. Top section</p>
+                  <p class="PayBoxTitle">1. Top section</p>
                   <ol class="teach-bullet-list">
                     <li>Employee Name</li>
                     <li>Where you work</li>
@@ -143,7 +280,7 @@
                 </li>
 
                 <li class="paycheckList2">
-                  <p>2. Payments</p>
+                  <p class="PayBoxTitle">2. Payments</p>
                   <ol class="teach-bullet-list">
                     <li>Hours worked</li>
                     <li>Hourly rate</li>
@@ -155,9 +292,8 @@
                     </li>
                   </ol>
                 </li>
-
                 <li class="paycheckList3">
-                  <p>3. Deductions</p>
+                  <p class="PayBoxTitle">3. Deductions</p>
                   <ol class="teach-bullet-list">
                     <li>PAYE - Pay-As-You-Earn income tax</li>
                     <li>NIA - National Insurance Contributions</li>
@@ -168,7 +304,7 @@
                 </li>
 
                 <li class="paycheckList4">
-                  <p>4. Balances and Month Summary</p>
+                  <p class="PayBoxTitle">4. Balances and Summary</p>
                   <ol class="teach-bullet-list">
                     <li>On the left appear cumulative balances to date</li>
                     <li>
@@ -181,28 +317,59 @@
               </ul>
             </div>
           </div>
-          <p class="financeSubheader">Savings</p>
 
-          <p class="financeSubheader">Disclaimer</p>
-          <p class="introFinanceText"></p>
-
-          <p>
-            Please note that we and this website do not offer financial advice.
-            I am providing content and explanations on common topics to help you
-            make informed decisions and have an insight to what you may be
-            exposed to. I'd recommend consulting with a qualified financial
-            advisor for advice. Please contact me via the contact page if you
-            have any recommendations or suggestions.
+          <p class="financeSubheader">Making the most of your money</p>
+          <p class="introFinanceText">
+            Here is a list of some things that I have done to help make my money
+            go further.
           </p>
+          <ol class="introFinanceText" style="margin-left: 2%">
+            <li>
+              <strong>1. Open a Lifetime ISA:</strong> Save up to £4,000 per
+              year and get a 25% bonus.
+            </li>
+            <li>
+              <strong>2. Budget:</strong> Identified areas where I could cut
+              back (that subscription I thought I'd use but never really did).
+            </li>
+            <li>
+              <strong>3. Save Regularly:</strong> Set up automatic transfers to
+              a savings account each month.
+            </li>
+          </ol>
         </div>
       </div>
+      <div class="financeContainer" style="margin-top: 3%">
+        <p class="financeSubheader">Disclaimer</p>
+        <p class="introFinanceText">
+          Please note that neither we nor this website offer financial advice.
+          The content provided here serves to introduce you to common topics you
+          might not be familiar with. It is for educational purposes only. We
+          recommend consulting with a qualified financial advisor for
+          personalized advice tailored to your specific financial situation.
+        </p>
+      </div>
     </div>
-
     <footer>
       <p style="display: inline-block">&copy;</p>
       <div style="display: inline-block" id="year"></div>
       <p style="display: inline-block">The Foundation Doctor.co.uk</p>
     </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
     <script src="code.js"></script>
   </body>
 </html>

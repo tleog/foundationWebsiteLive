@@ -225,7 +225,8 @@ footer {
   padding-left: 10px;
   padding-right: 10px;
   color: #011644;
-  font-size: 18px;
+  font-size: 1.125rem;
+    line-height: 1.5;  
 }
 
 /*chatgpt code*/
@@ -326,6 +327,8 @@ textarea {
   padding: 10px;
   margin-right: 20%;
   margin-left: 5px;
+  font-size: 1.125rem;
+  line-height: 1.5;
 }
 
 .childflexappinfobox {
@@ -370,6 +373,7 @@ textarea {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  
 }
 
 .childflexappicons1 {
@@ -427,6 +431,8 @@ textarea {
 
 .aboutText {
   margin: 10px;
+  font-size: 1.125rem;
+  line-height: 1.5;
 }
 
 .faceimage {
@@ -456,6 +462,9 @@ textarea {
 .introFinanceText {
   margin-top: 10px;
   margin-bottom: 10px;
+      font-size: 1.125rem;
+    line-height: 1.5;
+  
 }
 
 .financeContainer {
@@ -476,10 +485,6 @@ textarea {
   font-weight: 500;
 }
 
-.payCheckImage {
-  width: 60%;
-  max-height: auto;
-}
 .payCheckImageMob {
   width: 60%;
   max-height: auto;
@@ -496,59 +501,66 @@ textarea {
   flex-direction: column;
 }
 
-.payChildRow {
+
+
+.paycheckContainer {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
 }
 
-.paycheckList1 {
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 20%;
-  padding-left: 5px;
-  background-color: orange;
+.payChildRow {
+  display: flex;
+  align-items: flex-start; /* Align items to the top of the flex container */
+}
+
+.imageContainer {
+  flex: 1; /* Take up remaining space */
+}
+
+.paycheckLists {
+  width: 40%; /* Adjust width as needed */
+}
+
+.paycheckListParent {
+  padding: 1%;
+}
+.payCheckTextMob{
+  display: none;
+}
+
+.paycheckList1, .paycheckList2, .paycheckList3, .paycheckList4{
+  margin-bottom: 5px;
+  background-color: orange; /* Adjust background color as needed */
   border-radius: 5px;
-  border-style: solid;
-  border-width: 3px;
-  border-color: white;
+  border: 3px solid white; /* Shorter notation for border style */
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .paycheckList2 {
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 20%;
-  padding-left: 5px;
-  background-color: rgb(4, 160, 4);
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 3px;
-  border-color: white;
+  background-color: rgb(4, 160, 4); /* Adjust background color as needed */
 }
 
+
 .paycheckList3 {
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 20%;
-  padding-left: 5px;
+ 
   background-color: rgb(240, 31, 31);
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 3px;
-  border-color: white;
+ 
 }
 
 .paycheckList4 {
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 20%;
-  padding-left: 5px;
+ 
   background-color: rgb(132, 214, 241);
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 3px;
-  border-color: white;
+  
 }
-
+.PayBoxTitle{
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin: 5px;
+  font-weight: 600;
+  
+}
+/*trial*/
 /*leave styling*/
 .leaveFlex {
   display: flex;
@@ -568,6 +580,8 @@ textarea {
 .leaveText {
   margin-left: 10px;
   margin-right: 10px;
+  font-size: 1.125rem;
+  line-height: 1.5;
 }
 
 .leaveSubheader {
@@ -589,6 +603,8 @@ textarea {
   /*  gap between grid items */
   width: 50%;
   /* width of the grid container */
+  font-size: 1.125rem;
+  line-height: 1.5;
 }
 
 .shiftGrid-item {
@@ -598,6 +614,8 @@ textarea {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 10px;
+  font-size: 1.125rem;
+  line-height: 1.5;
 }
 
 .shiftGrid-item2 {
@@ -612,6 +630,7 @@ textarea {
 .leaveList {
   list-style-type: square;
   margin-left: 30px;
+  
 }
 
 /*train the trainer styling*/
@@ -739,6 +758,8 @@ textarea {
   flex-direction: column;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-size: 1.125rem;
+  line-height: 1.5;
 }
 .specialityContainer {
   margin-left: 10%;
@@ -766,6 +787,8 @@ textarea {
   border-radius: 8px;
   padding: 10px;
   box-shadow: 0px 0px 4px #748ddfc0;
+  font-size: 1.125rem;
+  line-height: 1.5;
 }
 .quizButton{
   background-color: #c1d3e7c4;
@@ -1055,7 +1078,14 @@ textarea {
   .financeContainer {
     margin: 1%;
   }
+.paycheckListParent{
+  display: none;
+}
 
+.payCheckTextMob{
+display: flex;
+
+}
   .payCheckImage {
     display: none;
   }
