@@ -676,22 +676,21 @@ textarea {
 
 .bloom-diagram {
   height: 250px;
-  margin-bottom: 1%;
   margin: auto;
+  margin-top: 3%;
 }
 
 .train-Text-subheader {
   font-weight: 500;
   font-size: 22px;
   margin-bottom: 20px;
-  margin-top: 4%;
+  margin-top: 2%;
 }
 
 .train-Text-subsubheader {
-  margin-top: 10px;
   font-size: 20px;
   font-weight: 500;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 .train-Text-subsubsubheader {
@@ -701,10 +700,14 @@ textarea {
   font-size: 1.125rem;
   margin-top: 2%;
 }
-
+.trainList{
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
 .trainParagraph {
   font-size: 1.125rem;
   line-height: 1.5;
+  margin-top: 1%;
 }
 .takeHomeTip {
   font-size: 1rem;

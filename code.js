@@ -34,4 +34,19 @@ document.getElementById("payCheckImageMob").addEventListener("click", function (
   this.classList.toggle("fullscreen");
 });
 
-  
+//scrollToSection
+function scrollToSection(sectionId) {
+  var section = document.getElementById(sectionId);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+
+// Attach click event listeners to the links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    var sectionId = this.getAttribute('href').substr(1);
+    scrollToSection(sectionId);
+  });
+});
