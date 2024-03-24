@@ -457,6 +457,9 @@ textarea {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.financeFlexRow{
+  flex-direction: row;
+}
 
 .introFinanceText {
   margin-top: 10px;
@@ -530,7 +533,7 @@ textarea {
 .paycheckList3,
 .paycheckList4 {
   margin-bottom: 5px;
-  background-color: orange; /* Adjust background color as needed */
+  background-color: rgb(255, 181, 43); /* Adjust background color as needed */
   border-radius: 5px;
   border: 3px solid white; /* Shorter notation for border style */
   font-size: 1rem;
@@ -538,11 +541,11 @@ textarea {
 }
 
 .paycheckList2 {
-  background-color: rgb(4, 160, 4); /* Adjust background color as needed */
+  background-color: rgb(55, 207, 55); /* Adjust background color as needed */
 }
 
 .paycheckList3 {
-  background-color: rgb(240, 31, 31);
+  background-color: rgb(247, 61, 61);
 }
 
 .paycheckList4 {
@@ -712,6 +715,8 @@ textarea {
 .teach-bullet-list {
   list-style-type: square;
   margin-left: 30px;
+  font-size: 1.125rem;
+  line-height: 1.25;
 }
 .teach-number-list {
   list-style-type: decimal;

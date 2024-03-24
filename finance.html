@@ -82,51 +82,100 @@
     <div class="financeFlex">
       <div class="financeContainer">
         <div class="financeText">
-          <p class="financeSubheader">Introduction</p>
+          <div style="display: flex">
+            <img
+              src="images/letter.PNG"
+              style="
+                border-radius: 20px;
+                margin-right: 2%;
+                margin-top: 4%;
+                width: 5%;
+                height: 5%;
+              "
+            />
+            <div style="display: flex; flex-direction: column">
+              <p class="financeSubheader">Introduction</p>
+              <p class="introFinanceText">
+                For many of you entering your first job as a Foundation Doctor,
+                receiving your first paycheck can be an exciting experience.
+                However, it's easy to overlook key details in the excitement.
+                Let's break down a few key points to make more sense of it.
+              </p>
+            </div>
+          </div>
+          <div style="margin-top: 2%"><hr /></div>
 
-          <p class="introFinanceText">
-            For many of you entering your first job as a Foundation Doctor,
-            receiving your first paycheck can be an exciting experience.
-            However, it's easy to overlook key details in the excitement. Let's
-            break down a few key points to make more sense of it.
-          </p>
-          <p class="financeSubheader">When do I get paid?</p>
+          <div style="display: flex">
+            <img
+              src="images/pig.PNG"
+              style="
+                border-radius: 20px;
+                margin-right: 2%;
+                margin-top: 4%;
+                width: 5%;
+                height: 5%;
+              "
+            />
+            <div style="display: flex; flex-direction: column">
+              <p class="financeSubheader">When do I get paid?</p>
+              <p class="introFinanceText">
+                The timing of your paycheck can vary between different trusts
+                for standard employment. Typically, you can expect it at the end
+                of the month. Some trusts pay on the last working day, while
+                others have a fixed date, such as the 25th of each month. In the
+                case of locum (bank) work, payments may be issued weekly or
+                fortnightly. Payroll information can be delivered through an
+                e-payslip or a physical letter.
+              </p>
+            </div>
+          </div>
+          <div style="margin-top: 2%"><hr /></div>
 
-          <p class="introFinanceText">
-            The timing of your paycheck can vary between different trusts for
-            standard employment. Typically, you can expect it at the end of the
-            month. Some trusts pay on the last working day, while others have a
-            fixed date, such as the 25th of each month. In the case of locum
-            (bank) work, payments may be issued weekly or fortnightly. Payroll
-            information can be delivered through an e-payslip or a physical
-            letter.
-          </p>
-          <p class="financeSubheader">What will my salary be?</p>
-          <p class="introFinanceText">
-            The variation in pay depends on several factors. To arrive at the
-            monthly take-home pay, we must consider how pay varies based on the
-            job. All Foundation Doctors receive a 'base rate.' Additional hours
-            beyond the standard 40 hours, night shifts, and weekend cover
-            contribute to the overall pay. This is often presented to you as a
-            set annual salary. Take a look at the BMA Pay Scales below to get an
-            idea of how pay scales with experience.
-          </p>
+          <div style="display: flex">
+            <img
+              src="images/coins.PNG"
+              style="
+                border-radius: 20px;
+                margin-right: 2%;
+                margin-top: 4%;
+                width: 5%;
+                height: 5%;
+              "
+            />
+            <div style="display: flex; flex-direction: column">
+              <p class="financeSubheader">What will my salary be?</p>
+              <p class="introFinanceText">
+                The variation in pay depends on several factors. To arrive at
+                the monthly take-home pay, we must consider how pay varies based
+                on the job. All Foundation Doctors receive a 'base rate.'
+                Additional hours beyond the standard 40 hours, night shifts, and
+                weekend cover contribute to the overall pay. This is often
+                presented to you as a set annual salary. Take a look at the BMA
+                Pay Scales below to get an idea of how pay scales with
+                experience.
+              </p>
+            </div>
+          </div>
+          <div style="margin-top: 2%"><hr /></div>
+
           <!-- Button trigger modal -->
-          <button
-            type="button"
-            class="btn btn-primary"
-            data-toggle="modal"
-            data-target="#exampleModalCenter"
-            style="
-              color: black;
-              font-weight: 600;
-              background-color: rgb(119, 226, 240);
-              border: none;
-            "
-          >
-            BMA Doctor Pay Circular 2023/2024
-          </button>
-
+          <div style="justify-content: center; display: flex">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#exampleModalCenter"
+              style="
+                color: black;
+                font-weight: 600;
+                background-color: rgb(119, 226, 240);
+                border: none;
+                margin-top: 2%;
+              "
+            >
+              BMA Doctor Pay Circular 2023/2024
+            </button>
+          </div>
           <!-- Modal -->
           <div
             class="modal fade"
@@ -216,10 +265,17 @@
                     <ol class="teach-bullet-list">
                       <li>Employee Name</li>
                       <li>Where you work</li>
-                      <li>What your job is</li>
+                      <li>What your role is</li>
                       <li>Your annual (12-month total) salary</li>
                       <li>The average hours worked (Standard Hrs)</li>
-                      <li>Your Tax code</li>
+                      <li>
+                        Your Tax code -->
+                        <a
+                          href="https://www.gov.uk/tax-codes/what-your-tax-code-means#:~:text=The%20numbers%20in%20your%20tax,or%20part%2Dtime%20earnings)."
+                          style="color: blue"
+                          >Explained Here!</a
+                        >
+                      </li>
                       <li>Your local tax office code</li>
                       <li>National Insurance Number</li>
                     </ol>
@@ -324,40 +380,79 @@
               </ul>
             </div>
           </div>
+          <div style="margin-top: 2%"><hr /></div>
+          <div style="display: flex">
+            <div style="flex-direction: column">
+              <p class="financeSubheader">Making the most of your money</p>
+              <p class="introFinanceText">
+                Here is a list of some things that I have done to help make my
+                money go further:
+              </p>
+              <ol class="introFinanceText" style="margin-left: 2%">
+                <li>
+                  <strong>1. Open a Lifetime ISA:</strong> Save up to £4,000 per
+                  year and get a 25% bonus.
+                </li>
+                <li>
+                  <strong>2. Budget:</strong> Identified areas where I could cut
+                  back (that subscription I thought I'd use but never really
+                  did).
+                </li>
+                <li>
+                  <strong>3. Save Regularly:</strong> Set up automatic transfers
+                  to a savings account each month.
+                </li>
+                <li>
+                  <strong>4. Make use of BlueLightCard:</strong> For around £5
+                  you can get access to loads of discounts.
+                </li>
+                <li>
+                  <strong>5. NHS Discount:</strong> Alongside the odd "bonus" of
+                  a mince pie at Christmas you can get access to the NHS
+                  discount. Just by asking I was kindly offered 20% off new
+                  tyres for my car despite no advert.
+                </li>
+                <li>
+                  <strong>6. Claim for tax relief:</strong> You can reduce how
+                  much tax you pay by reporting your spending on necessary
+                  expenses such as:
+                </li>
 
-          <p class="financeSubheader">Making the most of your money</p>
-          <p class="introFinanceText">
-            Here is a list of some things that I have done to help make my money
-            go further:
-          </p>
-          <ol class="introFinanceText" style="margin-left: 2%">
-            <li>
-              <strong>1. Open a Lifetime ISA:</strong> Save up to £4,000 per
-              year and get a 25% bonus.
-            </li>
-            <li>
-              <strong>2. Budget:</strong> Identified areas where I could cut
-              back (that subscription I thought I'd use but never really did).
-            </li>
-            <li>
-              <strong>3. Save Regularly:</strong> Set up automatic transfers to
-              a savings account each month.
-            </li>
-            <li>
-              <strong>4. Make use of BlueLightCard:</strong> For around £5 you
-              can get access to loads of discounts.
-            </li>
-            <li>
-              <strong>5. NHS Discount</strong> Alongside the odd "bonus" of a
-              mince pie at Christmas you can get access to the NHS discount.
-              Just by asking I was kindly offered 20% off new tyres for my car
-              despite no advert.
-            </li>
-          </ol>
+                <li class="teach-bullet-list">
+                  Memberships and Subscriptions e.g., BMA, BMJ, GMC, MDU, MPS,
+                  Royal Colleges
+                </li>
+                <li class="teach-bullet-list">Training Courses</li>
+                <li class="teach-bullet-list">
+                  Medical Equipment and Clothing
+                </li>
+              </ol>
+              <p class="introFinanceText">
+                For information check out the
+                <a
+                  href="https://www.gov.uk/tax-relief-for-employees/uniforms-work-clothing-and-tools"
+                  style="color: blue"
+                  >Tax Relief and expenses</a
+                >
+                page of the Gov.uk website.
+              </p>
+            </div>
+            <img
+              src="images/money.PNG"
+              style="
+                border-radius: 20px;
+                margin-left: 2%;
+                margin-top: auto;
+                margin-bottom: auto;
+                width: 20%;
+                height: auto;
+              "
+            />
+          </div>
         </div>
       </div>
       <div class="financeContainer" style="margin-top: 3%">
-        <p class="financeSubheader">Disclaimer</p>
+        <p class="financeSubheader">**Disclaimer**</p>
         <p class="introFinanceText">
           Please note that neither we nor this website offer financial advice.
           The content provided here serves to introduce you to common topics you
