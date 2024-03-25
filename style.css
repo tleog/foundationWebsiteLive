@@ -27,13 +27,21 @@ nav {
   color: #fff;
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 5px;
 }
 
 nav a {
   color: #fff;
   text-decoration: none;
   margin: 0 20px;
+  display: inline-block; /* Change display property */
+  padding: 20px; /* Add padding to create square shape */
+  border-radius: 12px;
+}
+nav a:hover{
+  color: #ffffff;
+  background-color: #3a4f64c5;
+
 }
 
 .featuredbutton {
@@ -987,7 +995,13 @@ textarea {
   }
   .nav {
     font-size: 15px;
+    text-align: center;
   }
+  .nav a {
+    margin: 5px 0; /* Adjust margin for smaller screens */
+    width: 100%; /* Make links full-width */  
+  }
+
   .toptipsgrid {
     margin: 0; /* Reset margin for small screens if needed */
   }
