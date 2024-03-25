@@ -998,8 +998,11 @@ textarea {
     text-align: center;
   }
   .nav a {
-    margin: 5px 0; /* Adjust margin for smaller screens */
-    width: 100%; /* Make links full-width */  
+    display: inline-block;
+    padding: 2%;
+    padding-top:5%;
+    padding-bottom:5%;
+    margin: 0px;
   }
 
   .toptipsgrid {
@@ -1029,8 +1032,8 @@ textarea {
 
   /*Page3.html*/
   .aboutflex {
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
   .aboutcontainer {
     margin-left: 2%;
@@ -1146,4 +1149,9 @@ textarea {
     margin: 1%;
   }
   /*Day One styling*/
+}
+
+/*wellbeing*/
+.aboutcontainerW {
+  margin: 4%; 
 }
