@@ -267,10 +267,10 @@ textarea {
 }
 
 .button2 {
-  background-color: #0057b3c4;
+  background-color: #1888ff96;
   color: #000000;
-  border-color: black;
-  border-width: 3px;
+  border-color: rgba(255, 255, 255, 0.63);
+  border-width: 1px;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
@@ -566,12 +566,12 @@ textarea {
   font-weight: 600;
 }
 /*trial*/
-/*leave styling*/
+/*leave styling*/ /*aka foundation school*/
 .leaveFlex {
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .leaveContainer {
@@ -583,52 +583,61 @@ textarea {
 }
 
 .leaveText {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
   font-size: 1.125rem;
   line-height: 1.5;
 }
-
+.leaveFaq {
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #001f61;
+  margin-top: 5%;
+}
 .leaveSubheader {
-  margin-top: 10px;
+  margin-top: 4%;
   font-size: 20px;
   font-weight: 500;
   color: #001f61;
-  margin-left: 10px;
+  margin-left: 2%;
+  margin-bottom: 1%;
 }
 
 .shiftGrid {
   margin-top: 15px;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: repeat(2, 1fr);
   /* Two columns with equal width */
-  grid-template-rows: repeat(6, 1fr);
-  /* Six rows with equal height */
+  grid-template-rows: repeat(3, 1fr);
+  /* Three rows with equal height */
   gap: 2px;
-  /*  gap between grid items */
-  width: 50%;
+  /* gap between grid items */
+  width: 100%;
   /* width of the grid container */
   font-size: 1.125rem;
   line-height: 1.5;
-}
+  }
 
 .shiftGrid-item {
-  background-color: #3498db;
-  color: white;
+  background-color: #6baad4;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 10px;
   font-size: 1.125rem;
   line-height: 1.5;
+  font-weight: 500;
 }
 
 .shiftGrid-item2 {
   background-color: #3498db;
-  color: white;
+  color: rgb(0, 9, 90);
   text-align: left;
   padding: 10px;
-  border: 1px solid #ccc;
   border-radius: 10px;
 }
 
@@ -818,12 +827,17 @@ textarea {
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 1.5%;
-  margin-top: 1.5%;
-
+  margin-bottom: 1.5%; /* Corrected */
   background-color: #acc9f0;
   border-radius: 8px;
   padding: 10px;
   box-shadow: 0px 0px 4px #748ddfc0;
+}
+
+.wellFlex {
+  margin-left: 20%;
+  margin-right: 20%;
+
 }
 /* wellbeing*/
 
@@ -1154,4 +1168,8 @@ textarea {
 /*wellbeing*/
 .aboutcontainerW {
   margin: 4%; 
+}
+.wellFlex {
+  margin-left: 2%;
+  margin-right: 2%;
 }
