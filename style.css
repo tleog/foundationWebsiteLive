@@ -595,7 +595,7 @@ textarea {
   line-height: 1.5;
   font-weight: 500;
   color: #001f61;
-  margin-top: 5%;
+  margin-top: 4%;
 }
 .leaveSubheader {
   margin-top: 4%;
@@ -626,16 +626,16 @@ textarea {
   color: rgb(0, 0, 0);
   text-align: center;
   padding: 10px;
-  border: 1px solid #ccc;
   border-radius: 10px;
   font-size: 1.125rem;
   line-height: 1.5;
   font-weight: 500;
+  margin: 1%;
 }
 
 .shiftGrid-item2 {
-  background-color: #3498db;
-  color: rgb(0, 9, 90);
+  background-color: #cbe1fa;
+  color: rgb(1, 6, 48);
   text-align: left;
   padding: 10px;
   border-radius: 10px;
