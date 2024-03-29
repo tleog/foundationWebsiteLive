@@ -38,10 +38,9 @@ nav a {
   padding: 20px; /* Add padding to create square shape */
   border-radius: 12px;
 }
-nav a:hover{
+nav a:hover {
   color: #ffffff;
   background-color: #3a4f64c5;
-
 }
 
 .featuredbutton {
@@ -297,6 +296,32 @@ textarea {
   margin-bottom: 10px;
 }
 
+/*CTA End of page button */
+.endPageButton {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 2%;
+  margin-top: 1%;
+
+}
+.endbutton {
+  background-color: #3f5973;
+  flex: auto;
+  border-radius: 5px;
+  height: 5%;
+  padding: 1%;
+  margin: 1%;
+  text-align: center;
+  color: white;
+}
+.endbutton:hover {
+  background-color: #536980;
+}
+
+/*CTA End of page button */
+
 /*appslist page styling*/
 .appsgrid {
   display: flex;
@@ -465,7 +490,7 @@ textarea {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.financeFlexRow{
+.financeFlexRow {
   flex-direction: row;
 }
 
@@ -619,7 +644,7 @@ textarea {
   /* width of the grid container */
   font-size: 1.125rem;
   line-height: 1.5;
-  }
+}
 
 .shiftGrid-item {
   background-color: #6baad4;
@@ -646,6 +671,9 @@ textarea {
   margin-left: 30px;
 }
 
+.sleList {
+  margin-top: 2%;
+}
 /*train the trainer styling*/
 .train-flex {
   display: flex;
@@ -837,7 +865,6 @@ textarea {
 .wellFlex {
   margin-left: 20%;
   margin-right: 20%;
-
 }
 /* wellbeing*/
 
@@ -1014,8 +1041,8 @@ textarea {
   .nav a {
     display: inline-block;
     padding: 2%;
-    padding-top:5%;
-    padding-bottom:5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     margin: 0px;
   }
 
@@ -1167,7 +1194,7 @@ textarea {
 
 /*wellbeing*/
 .aboutcontainerW {
-  margin: 4%; 
+  margin: 4%;
 }
 .wellFlex {
   margin-left: 2%;

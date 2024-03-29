@@ -50,3 +50,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     scrollToSection(sectionId);
   });
 });
+
+//End of page buttons change page//
+
+//End of page buttons change page//
