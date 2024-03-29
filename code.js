@@ -52,5 +52,37 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 //End of page buttons change page//
+const pageUrls = [
+  'index.html'
+  'apps.html'
+  'teaching.html'
+  'finance.html'
+  'foundation.html'
+  'advice.html'
+  'Speciality.html'
+  'DayOne.hmtl'
+  'contact.html'
+  'wellbeing.html'
+];
+
+let currentPageIndex = 0;
+
+function prevPage() {
+  if (currentPageIndex > 0){
+    currentPageIndex--;
+    navigateToPage();
+  }
+}
+function nextPage() {
+  if (currentPageIndex < pageUrls.length -1){
+    currentPageIndex++;
+    navigateToPage();
+  }
+}
+
+function navigateToPage() {
+  const nextPageUrl = PageURLs[currentPageIndex];
+  window.location.href = nextPageUrl;
+}
 
 //End of page buttons change page//
