@@ -624,7 +624,7 @@ textarea {
 }
 .leaveSubheader {
   margin-top: 4%;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 500;
   color: #001f61;
   margin-left: 2%;
@@ -685,11 +685,11 @@ textarea {
 }
 
 .train-container {
-  margin-left: 10px;
+  margin-left: 10x;
   margin-right: 10px;
-  background-color: #c8dbf5;
+  background-color: #acc9f0;
   border-radius: 8px;
-  padding: 10px;
+  padding: 3%;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -832,7 +832,7 @@ textarea {
   margin-top: 2%;
   background-color: #acc9f0;
   border-radius: 8px;
-  padding: 10px;
+  padding: 2%;
   box-shadow: 0px 0px 4px #748ddfc0;
   font-size: 1.125rem;
   line-height: 1.5;
