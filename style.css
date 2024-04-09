@@ -304,7 +304,6 @@ textarea {
   margin-right: 20%;
   margin-bottom: 2%;
   margin-top: 1%;
-
 }
 .endbutton {
   background-color: #3f5973;
@@ -315,6 +314,7 @@ textarea {
   margin: 1%;
   text-align: center;
   color: white;
+  cursor: pointer;
 }
 .endbutton:hover {
   background-color: #536980;

@@ -45,14 +45,19 @@
     </script>
   </head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9ERNSGRRHF"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-9ERNSGRRHF"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-  gtag('config', 'G-9ERNSGRRHF');
-</script>
+    gtag("config", "G-9ERNSGRRHF");
+  </script>
   <body>
     <div class="train-footer-wrapper">
       <div class="train-foooter-content">
@@ -513,17 +518,17 @@
         </div>
       </div>
       <div class="endPageButton">
-        <div class="endbutton">
-          <button onclick="prevPage()">Previous Article</button>
+        <div class="endbutton" onclick="prevPage()">
+          <button>Previous Article</button>
         </div>
         <a href="tips.html" class="endbutton">
           <button>All Tips</button>
         </a>
-        <div class="endbutton">
-          <button onclick="nextPage()">Next Article</button>
+        <div class="endbutton" onclick="nextPage()">
+          <button>Next Article</button>
         </div>
       </div>
-  
+
       <footer>
         <p style="display: inline-block">&copy;</p>
         <div style="display: inline-block" id="year"></div>
