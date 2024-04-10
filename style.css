@@ -866,6 +866,14 @@ textarea {
   margin-left: 20%;
   margin-right: 20%;
 }
+.wellSubheader{
+  margin-top: 1%;
+  font-size: 25px;
+  font-weight: 500;
+  color: #001f61;
+  margin-bottom: 2%; 
+  text-align: center;
+}
 /* wellbeing*/
 
 /*slide show styling*/
@@ -1195,6 +1203,8 @@ textarea {
 /*wellbeing*/
 .aboutcontainerW {
   margin: 4%;
+  margin-right: 25%;
+  margin-left: 25%;
 }
 .wellFlex {
   margin-left: 2%;
