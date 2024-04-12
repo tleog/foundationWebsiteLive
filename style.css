@@ -1159,6 +1159,9 @@ textarea {
   .payCheckImage {
     display: none;
   }
+  .payModal{
+    
+  }
   .payCheckImageMob {
     display: block;
   }
@@ -1178,13 +1181,16 @@ textarea {
       0,
       0,
       0.9
-    ); /* Optional: Add a semi-transparent overlay */
+    );
     z-index: 9999;
   }
   .payCheckImageMobText {
     display: block;
     font-weight: 500;
   }
+ 
+/*Finance Page*/
+
   /*Top tips grid*/
   .grid-container {
     display: block;
