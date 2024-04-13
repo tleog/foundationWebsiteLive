@@ -201,8 +201,8 @@ footer {
 .featured {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
-  margin-bottom: 15px;
+  margin-top: 2%;
+  margin-bottom: 0%;
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
@@ -818,6 +818,7 @@ textarea {
 .specialitySubheader {
   margin-top: 2%;
   margin-bottom: 1%;
+  margin-left: 1%;
   font-size: 25px;
   font-weight: 500;
   color: #001f61;
