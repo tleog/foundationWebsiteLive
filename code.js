@@ -10,7 +10,14 @@ const pageUrls = [
   "https://www.thefoundationdoctor.co.uk/contact.html",
   "https://www.thefoundationdoctor.co.uk/Wellbeing.html",
 ];
-
+// Attach click event listeners to the links
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+    var sectionId = this.getAttribute("href").substr(1);
+    scrollToSection(sectionId);
+  });
+});
 // Initialize currentPageIndex based on the current page URL
 const currentPageUrl = window.location.href;
 let currentPageIndex = pageUrls.indexOf(currentPageUrl);
@@ -79,11 +86,4 @@ function scrollToSection(sectionId) {
   }
 }
 
-// Attach click event listeners to the links
-document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-  anchor.addEventListener("click", function (e) {
-    e.preventDefault();
-    var sectionId = this.getAttribute("href").substr(1);
-    scrollToSection(sectionId);
-  });
-});
+
