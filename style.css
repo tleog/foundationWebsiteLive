@@ -620,7 +620,7 @@ textarea {
   line-height: 1.5;
   font-weight: 500;
   color: #001f61;
-  margin-top: 4%;
+  margin-top: 2%;
 }
 .leaveSubheader {
   margin-top: 4%;
@@ -629,6 +629,15 @@ textarea {
   color: #001f61;
   margin-left: 2%;
   margin-bottom: 1%;
+}
+.centered-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .shiftGrid {
@@ -758,7 +767,7 @@ textarea {
 }
 
 .teach-bullet-list {
-  list-style-type: square;
+  list-style-type: circle;
   margin-left: 30px;
   font-size: 1.125rem;
   line-height: 1.25;
@@ -809,8 +818,8 @@ textarea {
   line-height: 1.5;
 }
 .specialityContainer {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
   background-color: #acc9f0;
   border-radius: 8px;
   padding: 10px;
@@ -867,12 +876,12 @@ textarea {
   margin-left: 20%;
   margin-right: 20%;
 }
-.wellSubheader{
+.wellSubheader {
   margin-top: 1%;
   font-size: 25px;
   font-weight: 500;
   color: #001f61;
-  margin-bottom: 2%; 
+  margin-bottom: 2%;
   text-align: center;
 }
 /* wellbeing*/
@@ -1160,8 +1169,7 @@ textarea {
   .payCheckImage {
     display: none;
   }
-  .payModal{
-    
+  .payModal {
   }
   .payCheckImageMob {
     display: block;
@@ -1177,20 +1185,15 @@ textarea {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    background-color: rgba(
-      0,
-      0,
-      0,
-      0.9
-    );
+    background-color: rgba(0, 0, 0, 0.9);
     z-index: 9999;
   }
   .payCheckImageMobText {
     display: block;
     font-weight: 500;
   }
- 
-/*Finance Page*/
+
+  /*Finance Page*/
 
   /*Top tips grid*/
   .grid-container {

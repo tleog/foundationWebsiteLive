@@ -269,7 +269,9 @@
         <hr />
 
         <div class="specialitySubheader">When is recruitment?</div>
-        <img src="images\st-recruitmentTimeline.PNG" class="bloom-diagram" />
+        <div class="centered-image">
+          <img src="images\st-recruitmentTimeline.PNG" style="border-radius: 10px;"/>
+        </div>
         <hr />
 
         <div class="specialitySubheader">Competition Ratios</div>
@@ -284,6 +286,7 @@
           competition I've taken the data for the 2023 CST, IMT and GP training
           pathways and displayed them in tables and graphs on this page.
         </p>
+        <div> <!--EDIT CLASS FOR MOBILE-->
         <h2 class="text-center my-4">
           <strong>Specialty Training Entry 2023 Comparison</strong>
         </h2>
@@ -323,7 +326,7 @@
             </tr>
           </tbody>
         </table>
-
+      </div>
         <p class="leaveText" style="margin-top: 5%">
           Take a look at the rest of the
           <a
@@ -338,107 +341,170 @@
           for speciality training. I have created a table showing the change
           over time with regards to GP training applicants since 2013.
         </p>
-        <h2 class="text-center my-4">
-          <strong>Competition Changes Over Years - General Practice ST1</strong>
-        </h2>
-        <table class="table">
-          <thead>
-            <tr>
-              <th>Year</th>
-              <th>Applications</th>
-              <th>Posts</th>
-              <th>Competition Ratio</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>2013</td>
-              <td>6447</td>
-              <td>2787</td>
-              <td>2.3</td>
-            </tr>
-            <tr>
-              <td>2014</td>
-              <td>5477</td>
-              <td>3391</td>
-              <td>1.6</td>
-            </tr>
-            <tr>
-              <td>2015</td>
-              <td>5112</td>
-              <td>3612</td>
-              <td>1.42</td>
-            </tr>
-            <tr>
-              <td>2016</td>
-              <td>4863</td>
-              <td>3802</td>
-              <td>1.28</td>
-            </tr>
-            <tr>
-              <td>2017</td>
-              <td>5097</td>
-              <td>3857</td>
-              <td>1.32</td>
-            </tr>
-            <tr>
-              <td>2018</td>
-              <td>4987</td>
-              <td>3763</td>
-              <td>1.33</td>
-            </tr>
-            <tr>
-              <td>2019</td>
-              <td>5166</td>
-              <td>3861</td>
-              <td>1.34</td>
-            </tr>
-            <tr>
-              <td>2020</td>
-              <td>5770</td>
-              <td>3836</td>
-              <td>1.50</td>
-            </tr>
-            <tr>
-              <td>2021</td>
-              <td>7640</td>
-              <td>4269</td>
-              <td>1.79</td>
-            </tr>
-            <tr>
-              <td>2022</td>
-              <td>8549</td>
-              <td>4137</td>
-              <td>2.07</td>
-            </tr>
-            <tr>
-              <td>2023</td>
-              <td>10514</td>
-              <td>3935</td>
-              <td>2.67</td>
-            </tr>
-          </tbody>
-        </table>
-        <img src="images/graph1.png" style="display: inline-block" />
-        <img src="images/graph2.png" style="display: inline-block" />
 
-        <hr />
+        <div style="text-align: center; margin: 2%">
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-toggle="modal"
+            data-target="#exampleModal"
+          >
+            GP Speciality Training Competition Ratios
+          </button>
 
-        <div class="specialitySubheader">What are the requirements?</div>
-        <p class="leaveText">
-          Different specialities have different requirements, known as person
-          specifications. Considering that there are so many variations in
-          requirements I will not list them all out here. HEE have done a great
-          job in updating their website recently. I'll leave a link to the
-          <a
-            href="https://medical.hee.nhs.uk/medical-training-recruitment/medical-specialty-training/person-specifications/person-specifications-2024"
-            style="color: blue"
-            >Speciality Person Specifications here</a
-          >.
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    GP Speciality Training Competition Ratios
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h2 class="text-center my-4">
+                    <strong
+                      >Competition Ratios Over Recent Years - General Practice
+                      ST1</strong
+                    >
+                  </h2>
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>Year</th>
+                        <th>Applications</th>
+                        <th>Posts</th>
+                        <th>Competition Ratio</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>2013</td>
+                        <td>6447</td>
+                        <td>2787</td>
+                        <td>2.3</td>
+                      </tr>
+                      <tr>
+                        <td>2014</td>
+                        <td>5477</td>
+                        <td>3391</td>
+                        <td>1.6</td>
+                      </tr>
+                      <tr>
+                        <td>2015</td>
+                        <td>5112</td>
+                        <td>3612</td>
+                        <td>1.42</td>
+                      </tr>
+                      <tr>
+                        <td>2016</td>
+                        <td>4863</td>
+                        <td>3802</td>
+                        <td>1.28</td>
+                      </tr>
+                      <tr>
+                        <td>2017</td>
+                        <td>5097</td>
+                        <td>3857</td>
+                        <td>1.32</td>
+                      </tr>
+                      <tr>
+                        <td>2018</td>
+                        <td>4987</td>
+                        <td>3763</td>
+                        <td>1.33</td>
+                      </tr>
+                      <tr>
+                        <td>2019</td>
+                        <td>5166</td>
+                        <td>3861</td>
+                        <td>1.34</td>
+                      </tr>
+                      <tr>
+                        <td>2020</td>
+                        <td>5770</td>
+                        <td>3836</td>
+                        <td>1.50</td>
+                      </tr>
+                      <tr>
+                        <td>2021</td>
+                        <td>7640</td>
+                        <td>4269</td>
+                        <td>1.79</td>
+                      </tr>
+                      <tr>
+                        <td>2022</td>
+                        <td>8549</td>
+                        <td>4137</td>
+                        <td>2.07</td>
+                      </tr>
+                      <tr>
+                        <td>2023</td>
+                        <td>10514</td>
+                        <td>3935</td>
+                        <td>2.67</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="display: flex; justify-content: center">
+          <img
+            src="images/graph1.png"
+            style="display: inline-block; margin-right: 1%"
+          />
+          <img
+            src="images/graph2.png"
+            style="display: inline-block; margin-left: 1%"
+          />
+        </div>
+
+        <hr style="margin-top: 1%" />
+        <div class="specialitySubheader" style="margin-bottom: 2%">
+          How long is training?
+        </div>
+        <p class="leaveText" style="margin-bottom: 1%">
+          It's widely known that your time spent in a structured training post
+          will vary according to the different pathway and their requirements.
+          Below you can find a list of how long each pathway will take. Just
+          remember that this can vary depending on if you have any previous
+          experience (e.g. You may be able to "jump ahead" if you have worked
+          certain rotations as a medical registrar before swapping to GP
+          training). Also if you consider reducing your weekly hours and go Less
+          Than Full Time (LTFT) then your time in training may be elongated.
         </p>
-        <hr />
+        <div class="leaveFaq" style="margin-bottom: 2%">
+          <h5>Length of training:</h5>
+        </div>
 
-        <div class="specialitySubheader">How long is training?</div>
         <ul class="teach-bullet-list">
           <li>General Practice (GP): 3 years</li>
           <li>Internal Medicine (General Medicine): 5-6 years</li>
@@ -455,16 +521,30 @@
           <li>Ear, Nose, and Throat (ENT): 8-9 years</li>
           <li>Dermatology: 6 years</li>
         </ul>
+        <hr style="margin-top: 1%" />
+        <div class="specialitySubheader">What are the requirements?</div>
+        <p class="leaveText" style="margin-bottom: 2%">
+          Different specialities have different requirements, known as person
+          specifications. Considering that there are so many I will not list
+          them all here. HEE have done a great job in updating their website
+          recently. I'll leave a link to the
+          <a
+            href="https://medical.hee.nhs.uk/medical-training-recruitment/medical-specialty-training/person-specifications/person-specifications-2024"
+            style="color: blue"
+            >Speciality Person Specifications</a
+          >.
+        </p>
+        <hr />
 
         <hr />
         <div class="specialitySubheader">What about work-life-balance?</div>
-        <p class="leaveText">
+        <p class="leaveText" style="margin-bottom: 2%">
           When considering jobs its important to consider your work-life
           balance.
         </p>
         <hr />
         <div class="specialitySubheader">Where can you work?</div>
-        <div class="leaveFaq" style="margin-bottom: 20px">
+        <div class="leaveFaq" style="margin-bottom: 2%">
           <h5>International Speciality Training Options</h5>
         </div>
         <p class="leaveText" style="margin-bottom: 10px">
@@ -500,8 +580,9 @@
           Over the last few years the concept of taking an "F3" year, or a year
           out of structured training is becoming the norm. This is due to a
           multitude of factors including increased competition ratios for
-          speciality training and the increase in non-training roles such as
-          Clinical Fellow or Teaching Fellow roles.
+          speciality training, the reduction in available locum work and, the
+          increase in non-training roles such as Junior Clinical Fellow or
+          Clinical Teaching Fellow roles.
         </p>
 
         <hr />
@@ -509,14 +590,45 @@
         <div class="specialitySubheader">
           What are alternate career options?
         </div>
+        <ul class="teach-bullet-list" style="margin-bottom: 2%">
+          <li><p class="leaveText">Medical Education</p></li>
+          <li><p class="leaveText">Medical Writing</p></li>
+          <li><p class="leaveText">Medical Research</p></li>
+          <li><p class="leaveText">Global Health or Humanitarian Work</p></li>
+          <li><p class="leaveText">Telemedicine and Digital Health</p></li>
+          <li><p class="leaveText">Health-Technology</p></li>
+          <li><p class="leaveText">Medical Translation</p></li>
+          <li><p class="leaveText">Consultancy and Advisory Roles</p></li>
+        </ul>
+
+        <p class="leaveText" style="margin-top: 1%">
+          If this is something you'd like to look into in more detail then the
+          team over at
+          <a
+            href="https://medicfootprints.org/alternative-careers-for-doctors-the-ultimate-list/"
+            style="color: blue"
+            >Medics Footprints</a
+          >
+          have created a list of alternate careers for Doctors.
+        </p>
         <hr />
 
         <div class="specialitySubheader">Frequently asked questions</div>
         <div class="leaveFaq">
-          <h5>How do I choose the right specialty for me?</h5>
+          <h5 style="margin-bottom: 1%">
+            How do I choose the right specialty for me?
+          </h5>
         </div>
+        <ul class="teach-bullet-list">
+          <li><p class="leaveText">Talk to people</p></li>
+          <li><p class="leaveText">Use your Taster days</p></li>
+          <li><p class="leaveText">Look at person specifications</p></li>
+          <li><p class="leaveText">Do the BMA speciality finder</p></li>
+        </ul>
         <div class="leaveFaq">
-          <h5>What exams do I need to take during training?</h5>
+          <h5 style="margin-bottom: 1%">
+            What exams do I need to take during training?
+          </h5>
         </div>
         <p class="leaveText">
           Once you've got a place on the specialty training register you'll
@@ -524,21 +636,23 @@
           below.
         </p>
 
-        <p class="leaveText">Core Surgical - MRCS</p>
-        <p class="leaveText">Internal Medicine - MRCP</p>
-        <p class="leaveText">General Practice - MRCGP</p>
+        <ul class="teach-bullet-list">
+          <li><p class="leaveText">Core Surgical - MRCS</p></li>
+          <li><p class="leaveText">Internal Medicine - MRCP</p></li>
+          <li><p class="leaveText">General Practice - MRCGP</p></li>
+        </ul>
+
         <div class="leaveFaq">
-          <h5>Can I switch specialties during training?</h5>
-        </div>
-        <div class="leaveFaq">
-          <h5>How competitive is it to get into certain specialties?</h5>
-        </div>
-        <div class="leaveFaq">
-          <h5>
-            What are the lifestyle and job prospects like in different
-            specialties?
+          <h5 style="margin-bottom: 1%">
+            Can I switch specialties during training?
           </h5>
         </div>
+        <p class="leaveText">
+          Yes however, you will have to re-apply for specialty entry. If you can
+          demonstrate core competencies and experience then you may be able to
+          apply for training at a higher grade, for example IMT ST3 entry
+          instead of the standard post-F2 ST1 entry.
+        </p>
       </div>
     </div>
     <div class="endPageButton">
