@@ -66,10 +66,11 @@
     </header>
     <nav class="nav">
       <a href="index.html">Homepage <i class="fa-solid fa-circle-h"></i></a>
-      <a href="tips.html"
-        >Top Tips <i class="fa-solid fa-hand-holding-medical"></i
-      ></a>
-      <a href="Page3.html">About <i class="fa-solid fa-id-card-clip"></i></a>
+         <!--
+          <a href="tips.html"
+            >Top Tips <i class="fa-solid fa-hand-holding-medical"></i
+          ></a>-->
+          <a href="Page3.html">About <i class="fa-solid fa-id-card-clip"></i></a>
       <a href="contact.html"
         >Contact <i class="fa-solid fa-comment-medical"></i
       ></a>
@@ -1043,5 +1044,11 @@
       crossorigin="anonymous"
     ></script>
     <script src="code.js"></script>
+    <script>
+  $(document).ready(function(){
+    // Initialize popover
+    $('[data-toggle="popover"]').popover();
+  });
+</script>
   </body>
 </html>
