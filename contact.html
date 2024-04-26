@@ -39,14 +39,19 @@
     </script>
   </head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9ERNSGRRHF"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-9ERNSGRRHF"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-  gtag('config', 'G-9ERNSGRRHF');
-</script>
+    gtag("config", "G-9ERNSGRRHF");
+  </script>
   <body>
     <header class="header">
       <h1 class="headerText">
@@ -55,11 +60,11 @@
     </header>
     <nav class="nav">
       <a href="index.html">Homepage <i class="fa-solid fa-circle-h"></i></a>
-         <!--
+      <!--
           <a href="tips.html"
             >Top Tips <i class="fa-solid fa-hand-holding-medical"></i
           ></a>-->
-          <a href="about.html">About <i class="fa-solid fa-id-card-clip"></i></a>
+      <a href="about.html">About <i class="fa-solid fa-id-card-clip"></i></a>
       <a href="contact.html"
         >Contact <i class="fa-solid fa-comment-medical"></i
       ></a>
@@ -101,7 +106,7 @@
           id="message"
           name="message"
           rows="4"
-          style="font-size: 1.125rem; line-height: 1.5; padding: 1%;"
+          style="font-size: 1.125rem; line-height: 1.5; padding: 1%"
           required
           placeholder="Tell us if there's anything specific you like or want added!"
         ></textarea>
