@@ -476,10 +476,10 @@ textarea {
 
 .faceimage {
   height: 250px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5000px;
-  align-self: left;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border-radius: 50%;
 }
 
 .feedbackinfobox {
