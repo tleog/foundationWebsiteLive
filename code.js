@@ -7,9 +7,27 @@ const pageUrls = [
   "https://www.thefoundationdoctor.co.uk/advice.html",
   "https://www.thefoundationdoctor.co.uk/Speciality.html",
   "https://www.thefoundationdoctor.co.uk/DayOne.html",
-  "https://www.thefoundationdoctor.co.uk/contact.html",
+  "https://www.thefoundationdoctor.co.uk/Essentials.html",
   "https://www.thefoundationdoctor.co.uk/Wellbeing.html",
 ];
+//cookies remember browser function
+function acceptCookies() {
+  document.getElementById("cookie-alert").style.display = "none";
+  document.cookie = "cookiesAccepted=true; path=/; max-age=31536000"; // Expires in 1 year
+}
+
+function getCookie(name) {
+  let value = `; ${document.cookie}`;
+  let parts = value.split(`; ${name}=`);
+  if (parts.length === 2) return parts.pop().split(";").shift();
+}
+
+window.onload = function () {
+  if (getCookie("cookiesAccepted")) {
+    document.getElementById("cookie-alert").style.display = "none";
+  }
+};
+
 // Attach click event listeners to the links
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener("click", function (e) {
@@ -85,5 +103,3 @@ function scrollToSection(sectionId) {
     section.scrollIntoView({ behavior: "smooth" });
   }
 }
-
-

@@ -892,6 +892,48 @@ textarea {
   text-align: center;
 }
 /* wellbeing*/
+/* products */
+.card-container2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px; /* Adjust as needed */
+  max-width: 100%; /* Ensure it doesn't overflow the container */
+  margin: 0% auto; /* Center the grid horizontally */
+  text-align: center;
+}
+
+.card2 {
+  width: 12rem;
+  height: 12rem;
+  margin: auto;
+  background-color: #edf4fced;
+}
+.card-img2 {
+  margin: auto;
+  margin-top: 2%;
+  height: 60%;
+  width: 60%;
+}
+.card-img-book2 {
+  margin: auto;
+  height: 60%;
+}
+.teach-bullet-liste {
+  list-style-type: disc;
+  margin-left: 40px;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+.aboutTexte {
+  margin: 20px 10px;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+ol.aboutTexte li:first-child {
+  margin-bottom: 10px;
+}
+
+/* products */
 
 /*slide show styling*/
 .slideshow-container {
@@ -1022,6 +1064,9 @@ textarea {
 }
 .splashFlexButton:hover {
   background-color: #3d8cc0d3;
+}
+.mobileSplash {
+  display: none;
 }
 
 /*Mobile optimisation additions*/
@@ -1221,13 +1266,76 @@ textarea {
     margin: 2%;
   }
   /*Day One styling*/
-  .aboutcontainerW{
+  .aboutcontainerW {
     margin: 2%;
-
   }
-  
+  /*Essentials styling mobile*/
+  .card-container2 {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0% auto;
+  }
+  .card2 {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+  }
+  .card-img2 {
+    margin-top: 10px;
+    height: 50%;
+    width: 50%;
+  }
+
+  .card-img-book2 {
+    margin-top: 10px;
+    height: 50%;
+    width: 50%;
+  }
+  /*Essentials styling mobile*/
+  /*splash page mobile*/
+  .splashFlexLeft {
+    display: none;
+  }
+  .splashheader {
+    font-size: 40px;
+    margin-top: 10%;
+  }
+  .splashSubtitle {
+    font-size: 18px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .splashFlexRight {
+    font-size: 75px;
+    height: 100vh;
+  }
+  .splashFlexRightText {
+    margin-top: 20%;
+    margin-right: 0%;
+    text-align: center;
+  }
+  .mobileSplash {
+    display: block;
+  }
+  .splashFlexButton {
+  background-color: #183e5ee1;
+  border-radius: 45px;
+  padding: 2%;
+  padding-right: 2%;
+  padding-left: 2%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 15%;
+  color: #f8f8f8;
+  font-size: 30px;
+  box-shadow: #033da894;
+}
+.splashFlexButton:hover {
+  background-color: #3d8cc0d3;
 }
 
+  /*splash page mobile*/
+}
 
 .wellFlex {
   margin-left: 2%;
