@@ -1077,10 +1077,10 @@ ol.aboutTexte li:first-child {
 @media (max-width: 600px) {
   /*index.html*/
   body {
-    background-image: url("images/backgroundImageMob.png");
+    background-image: url("images/avif/backgroundImageMob.avif");
   }
   header {
-    background-image: url("images/headerImage.PNG");
+    background-image: url("images/avif/headerImage.avif");
     background-position: center;
   }
   .container {
@@ -1101,7 +1101,7 @@ ol.aboutTexte li:first-child {
 
   .subheading {
     color: #2c3e50;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 650;
   }
   .sidebar {

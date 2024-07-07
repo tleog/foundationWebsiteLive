@@ -116,9 +116,13 @@
       </div>
 
       <div class="aboutcontainer2">
-        <img src="images/Photo.JPG" class="faceimage" alt="It's me!" />
+        <picture>
+          <source srcset="images/avif/Photo.avif" type="image/avif">
+          <source srcset="images/Photo.webp" type="image/webp">
+          <img src="images/Photo.png" class="faceimage" alt="It's me!" />
+        </picture>
       </div>
-
+      
       <div class="aboutcontainer2" style="padding: 1%">
         <p class="aboutText">
           If you found this resource helpful and want to support me further,
@@ -166,15 +170,6 @@
         >Privacy Policy</a
       >
       <p style="display: inline-block; margin: auto">|</p>
-      <div style="display: block">
-        <a href="https://www.instagram.com/thefoundationdocuk/" target="_blank">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
-            alt="Instagram Logo"
-            style="width: 30px; height: auto; margin: auto"
-          />
-        </a>
-      </div>
     </footer>
     <script src="code.js"></script>
     <script
