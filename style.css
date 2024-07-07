@@ -906,13 +906,16 @@ textarea {
   width: 12rem;
   height: 12rem;
   margin: auto;
-  background-color: #edf4fced;
+  padding: 1%;
+  background-color: #c3d1f8ed;
+  border-radius: 25px;
 }
 .card-img2 {
   margin: auto;
   margin-top: 2%;
   height: 60%;
   width: 60%;
+  border-radius: 15px;
 }
 .card-img-book2 {
   margin: auto;
