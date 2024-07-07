@@ -222,10 +222,21 @@
             </p>
           </li>
           <li>
-            <img
-              src="images\WardroundNotesFull.PNG"
-              style="border-radius: 5px; margin: 0 auto"
-            />
+            <picture>
+              <source
+                srcset="images/avif/WardroundNotesFull.avif"
+                type="image/avif"
+              />
+              <source
+                srcset="images/WardroundNotesFull.webp"
+                type="image/webp"
+              />
+              <img
+                src="images/WardroundNotesFull.PNG"
+                style="border-radius: 5px; margin: 0 auto"
+                alt="Wardround Notes"
+              />
+            </picture>
           </li>
         </ol>
         <p class="aboutText">
@@ -888,7 +899,11 @@
               Although not that complex, the way different people work through
               their jobs list varies. See the diagram and text below.
             </p>
-            <img src="images\jobs.PNG" style="border-radius: 5px" />
+            <picture>
+              <source srcset="images/avif/jobs.avif" type="image/avif" />
+              <source srcset="images/jobs.webp" type="image/webp" />
+              <img src="images/jobs.PNG" style="border-radius: 5px" />
+            </picture>
 
             <p class="aboutText">
               In this example you can see that there are five jobs to do on this
@@ -1044,7 +1059,8 @@
           />
         </a>
       </div>
-    </footer>    <script
+    </footer>
+    <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
       crossorigin="anonymous"
