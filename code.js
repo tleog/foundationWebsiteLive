@@ -1,18 +1,21 @@
 //End of page buttons change page//
 const pageUrls = [
-  "https://www.thefoundationdoctor.co.uk/apps.html",
-  "https://www.thefoundationdoctor.co.uk/teaching.html",
-  "https://www.thefoundationdoctor.co.uk/finance.html",
-  "https://www.thefoundationdoctor.co.uk/foundation.html",
-  "https://www.thefoundationdoctor.co.uk/advice.html",
-  "https://www.thefoundationdoctor.co.uk/Speciality.html",
-  "https://www.thefoundationdoctor.co.uk/DayOne.html",
-  "https://www.thefoundationdoctor.co.uk/Essentials.html",
-  "https://www.thefoundationdoctor.co.uk/Wellbeing.html",
+  "apps.html",
+  "teaching.html",
+  "finance.html",
+  "foundation.html",
+  "advice.html",
+  "Speciality.html",
+  "DayOne.html",
+  "Essentials.html",
+  "Wellbeing.html",
 ];
 //cookies remember browser function
 function acceptCookies() {
-  document.getElementById("cookie-alert").style.display = "none";
+  const alert = document.getElementById("cookie-alert");
+  if (alert) {
+    alert.style.display = "none";
+  }
   document.cookie = "cookiesAccepted=true; path=/; max-age=31536000"; // Expires in 1 year
 }
 
@@ -22,11 +25,14 @@ function getCookie(name) {
   if (parts.length === 2) return parts.pop().split(";").shift();
 }
 
-window.onload = function () {
+document.addEventListener("DOMContentLoaded", function () {
   if (getCookie("cookiesAccepted")) {
-    document.getElementById("cookie-alert").style.display = "none";
+    const alert = document.getElementById("cookie-alert");
+    if (alert) {
+      alert.style.display = "none";
+    }
   }
-};
+});
 
 // Attach click event listeners to the links
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
@@ -37,8 +43,12 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   });
 });
 // Initialize currentPageIndex based on the current page URL
-const currentPageUrl = window.location.href;
-let currentPageIndex = pageUrls.indexOf(currentPageUrl);
+const currentPagePath = window.location.pathname.toLowerCase();
+let currentPageIndex = pageUrls.findIndex(
+  (pageUrl) =>
+    new URL(pageUrl, window.location.href).pathname.toLowerCase() ===
+    currentPagePath
+);
 
 function prevPage() {
   if (currentPageIndex > 0) {
@@ -48,7 +58,7 @@ function prevPage() {
 }
 
 function nextPage() {
-  if (currentPageIndex < pageUrls.length - 1) {
+  if (currentPageIndex >= 0 && currentPageIndex < pageUrls.length - 1) {
     currentPageIndex++;
     navigateToPage();
   }
@@ -61,13 +71,19 @@ function navigateToPage() {
 
 // Get the current year
 const currentYear = new Date().getFullYear();
-document.getElementById("year").textContent = currentYear;
+const yearElement = document.getElementById("year");
+if (yearElement) {
+  yearElement.textContent = currentYear;
+}
 
 //slideshow code
 let slideIndex = 0;
 
 function showSlides() {
   let slides = document.getElementsByClassName("slide");
+  if (slides.length === 0) {
+    return;
+  }
 
   // Hide all slides
   for (let i = 0; i < slides.length; i++) {
@@ -90,16 +106,20 @@ function showSlides() {
 document.addEventListener("DOMContentLoaded", showSlides);
 
 //anchorpaycheckcode
-document
-  .getElementById("payCheckImageMob")
-  .addEventListener("click", function () {
+const payCheckImageMob = document.getElementById("payCheckImageMob");
+if (payCheckImageMob) {
+  payCheckImageMob.addEventListener("click", function () {
     this.classList.toggle("fullscreen");
   });
+}
 
 //scrollToSection
 function scrollToSection(sectionId) {
   var section = document.getElementById(sectionId);
   if (section) {
-    section.scrollIntoView({ behavior: "smooth" });
+    const reducedMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)"
+    ).matches;
+    section.scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth" });
   }
 }

@@ -58,12 +58,13 @@
     gtag("config", "G-9ERNSGRRHF");
   </script>
   <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <header class="header">
       <h1 class="headerText">
         The Foundation Doctor <i class="fa-solid fa-user-doctor fa-2xl"></i>
       </h1>
     </header>
-    <nav class="nav">
+    <nav class="nav" aria-label="Main navigation">
       <a href="index.html">Homepage <i class="fa-solid fa-circle-h"></i></a>
       <a href="about.html">About <i class="fa-solid fa-id-card-clip"></i></a>
       <a href="contact.html"
@@ -74,9 +75,19 @@
     <div>
       <h1 class="featured title">Foundation Training</h1>
     </div>
-    <div class="leaveFlex">
+    <main class="leaveFlex foundation-page" id="main-content">
+      <nav class="foundation-toc" aria-label="Foundation training sections">
+        <span class="foundation-toc-title">On this page</span>
+        <a href="#foundation-overview">The programme</a>
+        <a href="#foundation-applications">Applications</a>
+        <a href="#foundation-faq">Application FAQs</a>
+        <a href="#foundation-years">Foundation years</a>
+        <a href="#foundation-rotas">Rotas and leave</a>
+      </nav>
       <div class="leaveContainer">
-        <p class="leaveSubheader">What is Foundation Training?</p>
+        <h2 class="leaveSubheader" id="foundation-overview">
+          What is Foundation Training?
+        </h2>
         <p class="leaveText">
           In a nutshell, this is a two-year training program for new medical
           graduates. It was designed to allow for a more uniform healthcare
@@ -99,7 +110,9 @@
           />
         </div>
 
-        <p class="leaveSubheader">How do I apply?</p>
+        <h2 class="leaveSubheader" id="foundation-applications">
+          How do I apply?
+        </h2>
         <p class="leaveText">
           UK medical graduates will be nominated by their university with
           applicants providing certain documentation including referees e.g.
@@ -177,6 +190,7 @@
         <p
           class="leaveSubheader"
           style="text-align: center; margin-bottom: 0px"
+          id="foundation-faq"
         >
           Foundation Application
         </p>
@@ -239,7 +253,11 @@
         </p>
         <hr style="margin-top: 2%" />
 
-        <p class="leaveSubheader" style="text-align: center">
+        <p
+          class="leaveSubheader"
+          style="text-align: center"
+          id="foundation-years"
+        >
           Foundation Years
         </p>
         <p class="leaveSubheader">What does it involve?</p>
@@ -358,7 +376,9 @@
           </ol>
         </div>
 
-        <p class="leaveSubheader">What shifts will I work?</p>
+        <p class="leaveSubheader" id="foundation-rotas">
+          What shifts will I work?
+        </p>
         <p class="leaveText">
           Shift work can vary depending on the specific job you rotate into. The
           two foundation years are divided into smaller rotations, totalling six
@@ -541,7 +561,7 @@
           </ul>
         </div>
       </div>
-    </div>
+    </main>
 
     <div class="endPageButton">
       <div class="endbutton" onclick="prevPage()">

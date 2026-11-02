@@ -64,6 +64,7 @@
     gtag("config", "G-9ERNSGRRHF");
   </script>
   <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <div class="train-footer-wrapper">
       <div class="train-foooter-content">
         <header class="header">
@@ -71,7 +72,7 @@
             The Foundation Doctor <i class="fa-solid fa-user-doctor fa-2xl"></i>
           </h1>
         </header>
-        <nav class="nav">
+        <nav class="nav" aria-label="Main navigation">
           <a href="index.html">Homepage <i class="fa-solid fa-circle-h"></i></a>
           <a href="about.html"
             >About <i class="fa-solid fa-id-card-clip"></i
@@ -81,11 +82,9 @@
           ></a>
           <a href="blog.html">Blog <i class="fa-brands fa-readme"></i></a>
         </nav>
-        <div>
-          <h1 class="featured title">Train the Trainer: The art of pedadogy</h1>
-        </div>
-        <div class="train-flex">
-          <div class="train-container">
+        <h1 class="featured title">Train the Trainer: The art of pedagogy</h1>
+        <div class="train-flex teaching-page" id="main-content">
+          <div class="train-container teaching-intro">
             <p class="train-Text-intro">
               Among the many roles of being a clinician is the role of being a
               teacher. This is highlighted during your Foundation Training Years
@@ -108,42 +107,31 @@
               improve your teaching styles.
             </p>
           </div>
-          <div class="train-container">
+          <nav class="train-container teaching-toc" aria-label="On this page">
             <div>
-              <p
-                class="train-Text-header"
-                style="text-align: left; margin: 0; font-size: 22px"
-              >
+              <p class="train-Text-header">
                 What's covered on this page:
               </p>
-              <ul class="train-Text-intro">
+              <ol class="teaching-toc-list">
                 <li>
-                  <a href="#section1" style="color: blue"
-                    >1. Writing Learning Objectives</a
-                  >
+                  <a href="#section1">Writing learning objectives</a>
                 </li>
                 <li>
-                  <a href="#section2" style="color: blue"
-                    >2. Targeting Your Presentation</a
-                  >
+                  <a href="#section2">Targeting your presentation</a>
                 </li>
                 <li>
-                  <a href="#section3" style="color: blue"
-                    >3. Understanding Memory</a
-                  >
+                  <a href="#section3">Understanding memory</a>
                 </li>
                 <li>
-                  <a href="#section4" style="color: blue"
-                    >4. Strategies To Improve Learning</a
-                  >
+                  <a href="#section4">Strategies to improve learning</a>
                 </li>
-              </ul>
+              </ol>
             </div>
-          </div>
-          <div class="train-container">
-            <p class="train-Text-header" id="section1">
+          </nav>
+          <div class="train-container teaching-section">
+            <h2 class="train-Text-header" id="section1">
               How can we teach more effectively?
-            </p>
+            </h2>
             <div class="train-Text-body">
               <ol>
                 <li class="train-Text-subheader">
@@ -185,7 +173,7 @@
               </ol>
             </div>
           </div>
-          <div class="train-container" id="section2">
+          <div class="train-container teaching-section" id="section2">
             <div class="train-Text-body">
               <ol>
                 <li class="train-Text-subheader">2. Consider Your Audience</li>
@@ -233,7 +221,7 @@
             </div>
           </div>
 
-          <div class="train-container" id="section3">
+          <div class="train-container teaching-section" id="section3">
             <div class="train-Text-body">
               <ol>
                 <li class="train-Text-subheader">3. Understanding Memory</li>
@@ -286,7 +274,7 @@
               </ol>
             </div>
           </div>
-          <div class="train-container" id="section4">
+          <div class="train-container teaching-section" id="section4">
             <ol>
               <li></li>
               <li class="train-Text-subheader">
